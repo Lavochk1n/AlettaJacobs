@@ -1,1 +1,1 @@
-# AlettaJacobs
+# This is the project called 'AlettaJacobs'.
