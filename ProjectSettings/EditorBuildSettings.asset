@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Conversation2.unity
     guid: a5694427daa867c4fb0907c246a07ce7
+  - enabled: 1
+    path: Assets/Scenes/TelescopeMinigame.unity
+    guid: d114f233289d6f24bb8cbb8416dc4b7d
   m_configObjects: {}
