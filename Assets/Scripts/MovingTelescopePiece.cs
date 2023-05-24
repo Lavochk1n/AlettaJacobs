@@ -32,15 +32,11 @@ public class MovingTelescopePiece : MonoBehaviour
     public GameObject pieceToMoveTo8;
     public GameObject pieceToMoveTo9;
     public GameObject pieceToMoveTo10;
+    public GameObject pieceToDrop;
     public GameObject camera1;
 
-    public float dropDistance = 40f;
+    public float dropDistance = 0.1f;
 
-    
-    
-       
-
-    
 
     public void DropObject(GameObject pieceToMove1)
     {
@@ -50,87 +46,103 @@ public class MovingTelescopePiece : MonoBehaviour
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo1.transform.position;
         }
-        //float Distance2 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo2.transform.position);
-        //if (Distance2 < dropDistance)
-        //{
-        //    isLocked = false;
-        //    pieceToMove1.transform.position = pieceToMoveTo2.transform.position;
-        //}
+        float Distance2 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo2.transform.position);
+        if (Distance2 < dropDistance)
+        {
+            isLocked = false;
+            pieceToMove1.transform.position = pieceToMoveTo2.transform.position;
+        }
 
 
-        //float Distance3 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo3.transform.position);
-        //if (Distance3 < dropDistance)
-        //{
-        //    isLocked = false;
-        //    pieceToMove1.transform.position = pieceToMoveTo3.transform.position;
-        //}
+        float Distance3 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo3.transform.position);
+        if (Distance3 < dropDistance)
+        {
+            isLocked = false;
+            pieceToMove1.transform.position = pieceToMoveTo3.transform.position;
+        }
 
-        //float Distance4 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo4.transform.position);
-        //if (Distance4 < dropDistance)
-        //{
-        //    isLocked = false;
-        //    pieceToMove1.transform.position = pieceToMoveTo4.transform.position;
-        //}
-
-
-        //float Distance5 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo5.transform.position);
-        //if (Distance5 < dropDistance)
-        //{
-        //    isLocked = false;
-        //    pieceToMove1.transform.position = pieceToMoveTo5.transform.position;
-        //}
+        float Distance4 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo4.transform.position);
+        if (Distance4 < dropDistance)
+        {
+            isLocked = false;
+            pieceToMove1.transform.position = pieceToMoveTo4.transform.position;
+        }
 
 
-        //float Distance6 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo6.transform.position);
-        //if (Distance6 < dropDistance)
-        //{
-        //    isLocked = false;
-        //    pieceToMove1.transform.position = pieceToMoveTo6.transform.position;
-        //}
+        float Distance5 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo5.transform.position);
+        if (Distance5 < dropDistance)
+        {
+            isLocked = false;
+            pieceToMove1.transform.position = pieceToMoveTo5.transform.position;
+        }
 
 
-        //float Distance7 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo7.transform.position);
-        //if (Distance7 < dropDistance)
-        //{
-        //    isLocked = false;
-        //    pieceToMove1.transform.position = pieceToMoveTo7.transform.position;
-        //}
+        float Distance6 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo6.transform.position);
+        if (Distance6 < dropDistance)
+        {
+            isLocked = false;
+            pieceToMove1.transform.position = pieceToMoveTo6.transform.position;
+        }
 
 
-        //float Distance8 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo8.transform.position);
-        //if (Distance8 < dropDistance)
-        //{
-        //    isLocked = false;
-        //    pieceToMove1.transform.position = pieceToMoveTo8.transform.position;
-        //}
+        float Distance7 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo7.transform.position);
+        if (Distance7 < dropDistance)
+        {
+            isLocked = false;
+            pieceToMove1.transform.position = pieceToMoveTo7.transform.position;
+        }
 
-        //float Distance9 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo9.transform.position);
-        //if (Distance9 < dropDistance)
-        //{
-        //    isLocked = false;
-        //    pieceToMove1.transform.position = pieceToMoveTo9.transform.position;
-        //}
+
+        float Distance8 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo8.transform.position);
+        if (Distance8 < dropDistance)
+        {
+            isLocked = false;
+            pieceToMove1.transform.position = pieceToMoveTo8.transform.position;
+        }
+
+        float Distance9 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo9.transform.position);
+        if (Distance9 < dropDistance)
+        {
+            isLocked = false;
+            pieceToMove1.transform.position = pieceToMoveTo9.transform.position;
+        }
+
+        float Distance10 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo10.transform.position);
+        if (Distance10 < dropDistance)
+        {
+            isLocked = false;
+            pieceToMove1.transform.position = pieceToMoveTo10.transform.position;
+        }
 
         float Distance11 = Vector3.Distance(pieceToMove.transform.position, pieceToMoveTo1.transform.position);
-        //float Distance12 = Vector3.Distance(pieceToMove2.transform.position, pieceToMoveTo2.transform.position);
-        //float Distance13 = Vector3.Distance(pieceToMove3.transform.position, pieceToMoveTo3.transform.position);
-        //float Distance14 = Vector3.Distance(pieceToMove4.transform.position, pieceToMoveTo4.transform.position);
-        //float Distance15 = Vector3.Distance(pieceToMove5.transform.position, pieceToMoveTo5.transform.position);
-        //float Distance16 = Vector3.Distance(pieceToMove6.transform.position, pieceToMoveTo6.transform.position);
-        //float Distance17 = Vector3.Distance(pieceToMove7.transform.position, pieceToMoveTo7.transform.position);
-        //float Distance18 = Vector3.Distance(pieceToMove8.transform.position, pieceToMoveTo8.transform.position);
-        //float Distance19 = Vector3.Distance(pieceToMove9.transform.position, pieceToMoveTo9.transform.position);
-        //float Distance20 = Vector3.Distance(pieceToMove10.transform.position, pieceToMoveTo10.transform.position);
-        if (Distance1 < 10)
+        float Distance12 = Vector3.Distance(pieceToMove2.transform.position, pieceToMoveTo2.transform.position);
+        float Distance13 = Vector3.Distance(pieceToMove3.transform.position, pieceToMoveTo3.transform.position);
+        float Distance14 = Vector3.Distance(pieceToMove4.transform.position, pieceToMoveTo4.transform.position);
+        float Distance15 = Vector3.Distance(pieceToMove5.transform.position, pieceToMoveTo5.transform.position);
+        float Distance16 = Vector3.Distance(pieceToMove6.transform.position, pieceToMoveTo6.transform.position);
+
+        float Distance17 = Vector3.Distance(pieceToMove7.transform.position, pieceToMoveTo7.transform.position);
+        float Distance172 = Vector3.Distance(pieceToMove7.transform.position, pieceToMoveTo7.transform.position);
+        float Distance173 = Vector3.Distance(pieceToMove7.transform.position, pieceToMoveTo7.transform.position);
+        float Distance18 = Vector3.Distance(pieceToMove8.transform.position, pieceToMoveTo8.transform.position);
+        float Distance182 = Vector3.Distance(pieceToMove8.transform.position, pieceToMoveTo8.transform.position);
+        float Distance183 = Vector3.Distance(pieceToMove8.transform.position, pieceToMoveTo8.transform.position);
+        float Distance19 = Vector3.Distance(pieceToMove9.transform.position, pieceToMoveTo9.transform.position);
+        float Distance192 = Vector3.Distance(pieceToMove9.transform.position, pieceToMoveTo9.transform.position);
+        float Distance193 = Vector3.Distance(pieceToMove9.transform.position, pieceToMoveTo9.transform.position);
+
+
+        float Distance20 = Vector3.Distance(pieceToMove10.transform.position, pieceToMoveTo10.transform.position);
+        if (Distance11 < 1 && Distance12 < 1 && Distance13 < 1 && Distance14 < 1 && Distance15 < 1 && Distance16 < 1 && Distance17 < 1 && Distance18 < 1 && Distance19 < 1 && Distance20 < 1)
         {
           
            // SceneManager.LoadScene("gameRoom3");
-            Debug.Log("Object has snapped");
+            Debug.Log("Puzzle complete");
         }
         else
         {
            // SceneManager.LoadScene("gameRoom2");
-            Debug.Log("Object didn't snap");
+            Debug.Log("Puzzle not complete");
         }
 
     }
@@ -139,6 +151,7 @@ public class MovingTelescopePiece : MonoBehaviour
     void Start()
     {
         Cursor.visible = true;
+        pieceToDrop = null;
     }
 
     // Update is called once per frame
@@ -154,12 +167,73 @@ public class MovingTelescopePiece : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, 1000f))
             {
-                if (hit.transform == transform)   //pieceToMove.
+                //switch (hit.transform)
+                //{
+                //    case pieceToMove.transform:
+                //        pieceToMove.transform.parent = camera1.transform;
+                //        break;
+                //    case pieceToMove2.transform:
+                //        pieceToMove2.transform.parent = camera1.transform;
+                //        break;
+                //    default: 
+
+                //        break;
+                //}
+
+
+                if (hit.transform == pieceToMove.transform)
                 {
                     pieceToMove.transform.parent = camera1.transform;
+                    pieceToDrop = pieceToMove;
                 }
-                
-                
+                if (hit.transform == pieceToMove2.transform)
+                {
+                    pieceToMove2.transform.parent = camera1.transform;
+                    pieceToDrop = pieceToMove2;
+                }
+                if (hit.transform == pieceToMove3.transform)
+                {
+                    pieceToMove3.transform.parent = camera1.transform;
+                    pieceToDrop = pieceToMove3;
+                }
+                if (hit.transform == pieceToMove4.transform)
+                {
+                    pieceToMove4.transform.parent = camera1.transform;
+                    pieceToDrop = pieceToMove4;
+                }
+                if (hit.transform == pieceToMove5.transform)
+                {
+                    pieceToMove5.transform.parent = camera1.transform;
+                    pieceToDrop = pieceToMove5;
+                }
+                if (hit.transform == pieceToMove6.transform)
+                {
+                    pieceToMove6.transform.parent = camera1.transform;
+                    pieceToDrop = pieceToMove6;
+                }
+                if (hit.transform == pieceToMove7.transform)
+                {
+                    pieceToMove7.transform.parent = camera1.transform;
+                    pieceToDrop = pieceToMove7;
+                }
+                if (hit.transform == pieceToMove8.transform)
+                {
+                    pieceToMove8.transform.parent = camera1.transform;
+                    pieceToDrop = pieceToMove8;
+                }
+                if (hit.transform == pieceToMove9.transform)
+                {
+                    pieceToMove9.transform.parent = camera1.transform;
+                    pieceToDrop = pieceToMove9;
+                }
+                if (hit.transform == pieceToMove10.transform)
+                {
+                    pieceToMove10.transform.parent = camera1.transform;
+                    pieceToDrop = pieceToMove10;
+                }
+
+
+
             }
             if (mousePressed == false)
             {
@@ -168,13 +242,27 @@ public class MovingTelescopePiece : MonoBehaviour
         }
         else if (mousePressed == true)
         {
-                  DropObject(pieceToMove);
+            if (pieceToDrop != null)
+            {
+                  DropObject(pieceToDrop);
                   Debug.Log("Object dropped");
-            mousePressed = false;
+              mousePressed = false;
+             }
         }
-        else if (pieceToMove.transform.parent != null)
+
+        else if (pieceToMove.transform.parent != null || pieceToMove2.transform.parent != null || pieceToMove3.transform.parent != null || pieceToMove4.transform.parent != null || pieceToMove5.transform.parent != null || pieceToMove6.transform.parent != null || pieceToMove7.transform.parent != null || pieceToMove8.transform.parent != null || pieceToMove9.transform.parent != null || pieceToMove10.transform.parent != null)
         {
             pieceToMove.transform.parent = null;
+            pieceToMove2.transform.parent = null;
+            pieceToMove3.transform.parent = null;
+            pieceToMove4.transform.parent = null;
+            pieceToMove5.transform.parent = null;
+            pieceToMove6.transform.parent = null;
+            pieceToMove7.transform.parent = null;
+            pieceToMove8.transform.parent = null;
+            pieceToMove9.transform.parent = null;
+            pieceToMove10.transform.parent = null;
+
         }
 
 
