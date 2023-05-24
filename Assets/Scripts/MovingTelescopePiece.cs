@@ -10,6 +10,7 @@ public class MovingTelescopePiece : MonoBehaviour
     public bool isLocked = false;
     public bool pressingE = false;
     public bool mousePressed = false;
+    public bool hasHit = false;
     
 
     public GameObject pieceToMove;
@@ -45,12 +46,14 @@ public class MovingTelescopePiece : MonoBehaviour
         {
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo1.transform.position;
+            pieceToMove1.transform.rotation = pieceToMoveTo1.transform.rotation;
         }
         float Distance2 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo2.transform.position);
         if (Distance2 < dropDistance)
         {
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo2.transform.position;
+            pieceToMove1.transform.rotation = pieceToMoveTo2.transform.rotation;
         }
 
 
@@ -59,6 +62,7 @@ public class MovingTelescopePiece : MonoBehaviour
         {
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo3.transform.position;
+            pieceToMove1.transform.rotation = pieceToMoveTo3.transform.rotation;
         }
 
         float Distance4 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo4.transform.position);
@@ -66,6 +70,7 @@ public class MovingTelescopePiece : MonoBehaviour
         {
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo4.transform.position;
+            pieceToMove1.transform.rotation = pieceToMoveTo4.transform.rotation;
         }
 
 
@@ -74,6 +79,7 @@ public class MovingTelescopePiece : MonoBehaviour
         {
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo5.transform.position;
+            pieceToMove1.transform.rotation = pieceToMoveTo5.transform.rotation;
         }
 
 
@@ -82,6 +88,7 @@ public class MovingTelescopePiece : MonoBehaviour
         {
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo6.transform.position;
+            pieceToMove1.transform.rotation = pieceToMoveTo6.transform.rotation;
         }
 
 
@@ -90,6 +97,7 @@ public class MovingTelescopePiece : MonoBehaviour
         {
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo7.transform.position;
+            pieceToMove1.transform.rotation = pieceToMoveTo7.transform.rotation;
         }
 
 
@@ -98,6 +106,7 @@ public class MovingTelescopePiece : MonoBehaviour
         {
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo8.transform.position;
+            pieceToMove1.transform.rotation = pieceToMoveTo8.transform.rotation;
         }
 
         float Distance9 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo9.transform.position);
@@ -105,6 +114,7 @@ public class MovingTelescopePiece : MonoBehaviour
         {
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo9.transform.position;
+            pieceToMove1.transform.rotation = pieceToMoveTo9.transform.rotation;
         }
 
         float Distance10 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo10.transform.position);
@@ -112,6 +122,7 @@ public class MovingTelescopePiece : MonoBehaviour
         {
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo10.transform.position;
+            pieceToMove1.transform.rotation = pieceToMoveTo10.transform.rotation;
         }
 
         float Distance11 = Vector3.Distance(pieceToMove.transform.position, pieceToMoveTo1.transform.position);
@@ -122,18 +133,18 @@ public class MovingTelescopePiece : MonoBehaviour
         float Distance16 = Vector3.Distance(pieceToMove6.transform.position, pieceToMoveTo6.transform.position);
 
         float Distance17 = Vector3.Distance(pieceToMove7.transform.position, pieceToMoveTo7.transform.position);
-        float Distance172 = Vector3.Distance(pieceToMove7.transform.position, pieceToMoveTo7.transform.position);
-        float Distance173 = Vector3.Distance(pieceToMove7.transform.position, pieceToMoveTo7.transform.position);
+        float Distance172 = Vector3.Distance(pieceToMove7.transform.position, pieceToMoveTo8.transform.position);
+        float Distance173 = Vector3.Distance(pieceToMove7.transform.position, pieceToMoveTo9.transform.position);
         float Distance18 = Vector3.Distance(pieceToMove8.transform.position, pieceToMoveTo8.transform.position);
-        float Distance182 = Vector3.Distance(pieceToMove8.transform.position, pieceToMoveTo8.transform.position);
-        float Distance183 = Vector3.Distance(pieceToMove8.transform.position, pieceToMoveTo8.transform.position);
+        float Distance182 = Vector3.Distance(pieceToMove8.transform.position, pieceToMoveTo7.transform.position);
+        float Distance183 = Vector3.Distance(pieceToMove8.transform.position, pieceToMoveTo9.transform.position);
         float Distance19 = Vector3.Distance(pieceToMove9.transform.position, pieceToMoveTo9.transform.position);
-        float Distance192 = Vector3.Distance(pieceToMove9.transform.position, pieceToMoveTo9.transform.position);
-        float Distance193 = Vector3.Distance(pieceToMove9.transform.position, pieceToMoveTo9.transform.position);
+        float Distance192 = Vector3.Distance(pieceToMove9.transform.position, pieceToMoveTo7.transform.position);
+        float Distance193 = Vector3.Distance(pieceToMove9.transform.position, pieceToMoveTo8.transform.position);
 
 
         float Distance20 = Vector3.Distance(pieceToMove10.transform.position, pieceToMoveTo10.transform.position);
-        if (Distance11 < 1 && Distance12 < 1 && Distance13 < 1 && Distance14 < 1 && Distance15 < 1 && Distance16 < 1 && Distance17 < 1 && Distance18 < 1 && Distance19 < 1 && Distance20 < 1)
+        if (Distance11 < 1 && Distance12 < 1 && Distance13 < 1 && Distance14 < 1 && Distance15 < 1 && Distance16 < 1 && (Distance17 < 1 || Distance172 < 1 || Distance173 < 1) && (Distance182 < 1 || Distance183 < 1 || Distance18 < 1) && (Distance192 < 1 || Distance193 < 1 || Distance19 < 1) && Distance20 < 1)
         {
           
            // SceneManager.LoadScene("gameRoom3");
@@ -165,7 +176,7 @@ public class MovingTelescopePiece : MonoBehaviour
             ray = new Ray(camera1.GetComponent<Camera>().ScreenToWorldPoint(Input.mousePosition), camera1.GetComponent<Camera>().transform.forward);
             // or ray = camera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, 1000f))
+            if (Physics.Raycast(ray, out hit, 1000f) && hasHit == false)
             {
                 //switch (hit.transform)
                 //{
@@ -185,51 +196,61 @@ public class MovingTelescopePiece : MonoBehaviour
                 {
                     pieceToMove.transform.parent = camera1.transform;
                     pieceToDrop = pieceToMove;
+                    hasHit= true;
                 }
                 if (hit.transform == pieceToMove2.transform)
                 {
                     pieceToMove2.transform.parent = camera1.transform;
                     pieceToDrop = pieceToMove2;
+                    hasHit = true;
                 }
                 if (hit.transform == pieceToMove3.transform)
                 {
                     pieceToMove3.transform.parent = camera1.transform;
                     pieceToDrop = pieceToMove3;
+                    hasHit = true;
                 }
                 if (hit.transform == pieceToMove4.transform)
                 {
                     pieceToMove4.transform.parent = camera1.transform;
                     pieceToDrop = pieceToMove4;
+                    hasHit = true;
                 }
                 if (hit.transform == pieceToMove5.transform)
                 {
                     pieceToMove5.transform.parent = camera1.transform;
                     pieceToDrop = pieceToMove5;
+                    hasHit = true;
                 }
                 if (hit.transform == pieceToMove6.transform)
                 {
                     pieceToMove6.transform.parent = camera1.transform;
                     pieceToDrop = pieceToMove6;
+                    hasHit = true;
                 }
                 if (hit.transform == pieceToMove7.transform)
                 {
                     pieceToMove7.transform.parent = camera1.transform;
                     pieceToDrop = pieceToMove7;
+                    hasHit = true;
                 }
                 if (hit.transform == pieceToMove8.transform)
                 {
                     pieceToMove8.transform.parent = camera1.transform;
                     pieceToDrop = pieceToMove8;
+                    hasHit = true;
                 }
                 if (hit.transform == pieceToMove9.transform)
                 {
                     pieceToMove9.transform.parent = camera1.transform;
                     pieceToDrop = pieceToMove9;
+                    hasHit = true;
                 }
                 if (hit.transform == pieceToMove10.transform)
                 {
                     pieceToMove10.transform.parent = camera1.transform;
                     pieceToDrop = pieceToMove10;
+                    hasHit = true;
                 }
 
 
@@ -246,8 +267,10 @@ public class MovingTelescopePiece : MonoBehaviour
             {
                   DropObject(pieceToDrop);
                   Debug.Log("Object dropped");
-              mousePressed = false;
+              
              }
+            hasHit = false;
+            mousePressed = false;
         }
 
         else if (pieceToMove.transform.parent != null || pieceToMove2.transform.parent != null || pieceToMove3.transform.parent != null || pieceToMove4.transform.parent != null || pieceToMove5.transform.parent != null || pieceToMove6.transform.parent != null || pieceToMove7.transform.parent != null || pieceToMove8.transform.parent != null || pieceToMove9.transform.parent != null || pieceToMove10.transform.parent != null)
