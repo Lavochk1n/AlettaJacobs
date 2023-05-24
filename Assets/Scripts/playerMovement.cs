@@ -4,38 +4,75 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
-
     public CharacterController controller;
 
     public float speed = 13f;
     public float gravity = -9.81f;
+    public float stairStepHeight = 0.2f;
 
-    public Transform groundCheck;
-    public float groundDistance = 0.4f;
-    public LayerMask groundMask;
+    private bool isOnStairs = false;
+    private Vector3 moveDirection;
 
-    Vector3 velocity;
-    bool isGrounded;
-
-    // Update is called once per frame
     void Update()
     {
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-
-        if (isGrounded && velocity.y < 0)
+        if (isOnStairs)
         {
-            velocity.y = -2f;
+            HandleStairsMovement();
         }
+        else
+        {
+            HandleRegularMovement();
+        }
+    }
 
+    void HandleRegularMovement()
+    {
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
         Vector3 move = transform.right * x + transform.forward * z;
-
         controller.Move(move * speed * Time.deltaTime);
 
-        velocity.y += gravity * Time.deltaTime;
+        moveDirection.y += gravity * Time.deltaTime;
+        controller.Move(moveDirection * Time.deltaTime);
+    }
 
-        controller.Move(velocity * speed * Time.deltaTime);
+    void HandleStairsMovement()
+    {
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
+
+        Vector3 move = transform.right * x + transform.forward * z;
+        moveDirection = move * speed;
+
+        if (move.magnitude > 0)
+        {
+            float stepHeight = stairStepHeight * Time.deltaTime;
+            moveDirection.y = Mathf.Max(moveDirection.y, stepHeight);
+        }
+        else
+        {
+            moveDirection.y = 0f;
+        }
+
+        controller.Move(moveDirection * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Stairs"))
+        {
+            isOnStairs = true;
+            moveDirection = Vector3.zero;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Stairs"))
+        {
+            isOnStairs = false;
+            moveDirection = Vector3.zero;
+        }
     }
 }
