@@ -18,7 +18,7 @@ public class buttonscript : MonoBehaviour
 
     public void ToGame()
     {
-        SceneManager.LoadScene("GameRoom1");
+        SceneManager.LoadScene("New Building");
     }
 
     public void ToWho()
@@ -33,12 +33,12 @@ public class buttonscript : MonoBehaviour
 
     public void ToGame2()
     {
-        SceneManager.LoadScene("GameRoom2");
+        SceneManager.LoadScene("New Building 1");
     }
 
     public void ToGame3()
     {
-        SceneManager.LoadScene("GameRoom3");
+        SceneManager.LoadScene("New Building");
     }
 
     void Start()
