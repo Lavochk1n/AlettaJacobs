@@ -8,10 +8,14 @@ public class PaintingMovement : MonoBehaviour
 
     public CharacterController controller;
     public float speed = 13f;
+    
+
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+     
     }
 
     // Update is called once per frame
@@ -21,6 +25,6 @@ public class PaintingMovement : MonoBehaviour
         controller.Move(move * Time.deltaTime * speed);
 
         //Vector3 move = transform.right * x + transform.up * y;
-       
+
     }
 }
