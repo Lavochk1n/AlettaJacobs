@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class buttonscript : MonoBehaviour
 {
 
+   // public GameObject playerMovement1;
+
+
     public void NextScene()
     {
         SceneManager.LoadScene("whathappened");
@@ -33,7 +36,9 @@ public class buttonscript : MonoBehaviour
 
     public void ToGame2()
     {
-        SceneManager.LoadScene("New Building 1");
+       // playerMovement1.GetComponent<playerMovement>().SetPos2();
+        SceneManager.LoadScene("New Building");
+        
     }
 
     public void ToGame3()
@@ -45,6 +50,7 @@ public class buttonscript : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+      //  playerMovement1 = GameObject.Find("something");
     }
 
 

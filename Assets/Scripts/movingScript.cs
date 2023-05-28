@@ -820,7 +820,14 @@ public class movingScript : MonoBehaviour
 
         float Distance1 = Vector3.Distance(pieceToMove.transform.position, pieceToMoveTo1.transform.position);
         float Distance2 = Vector3.Distance(pieceToMove2.transform.position, pieceToMoveTo2.transform.position);
-        if (Distance1 < 10 && Distance2 < 10)
+        float Distance3 = Vector3.Distance(pieceToMove3.transform.position, pieceToMoveTo3.transform.position);
+        float Distance4 = Vector3.Distance(pieceToMove4.transform.position, pieceToMoveTo4.transform.position);
+        float Distance5 = Vector3.Distance(pieceToMove5.transform.position, pieceToMoveTo5.transform.position);
+        float Distance6 = Vector3.Distance(pieceToMove6.transform.position, pieceToMoveTo6.transform.position);
+        float Distance7 = Vector3.Distance(pieceToMove7.transform.position, pieceToMoveTo7.transform.position);
+        float Distance8 = Vector3.Distance(pieceToMove8.transform.position, pieceToMoveTo8.transform.position);
+        float Distance9 = Vector3.Distance(pieceToMove9.transform.position, pieceToMoveTo9.transform.position);
+        if (Distance1 < 10 && Distance2 < 10 && Distance3 < 10 && Distance4 < 10 && Distance5 < 10 && Distance6 < 10 && Distance7 < 10 && Distance8 < 10 && Distance9 < 10)
         {
             rightAnswer = true;
         }
@@ -831,11 +838,11 @@ public class movingScript : MonoBehaviour
 
         if (rightAnswer == true)
         {
-            SceneManager.LoadScene("gameRoom3");
+            SceneManager.LoadScene("New Building");
         }
         else
         {
-            SceneManager.LoadScene("gameRoom2");
+            SceneManager.LoadScene("New Building");
 
         }
     }

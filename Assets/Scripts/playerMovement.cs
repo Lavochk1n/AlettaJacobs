@@ -12,6 +12,19 @@ public class playerMovement : MonoBehaviour
 
     private bool isOnStairs = false;
     private Vector3 moveDirection;
+    public Vector3 positionToSet;
+
+
+    void Start()
+    {
+        //if (positionToSet != Vector3.zero)
+        //{
+        //    transform.position = positionToSet;
+        //    Debug.Log("Position has been set to variable");
+        //    positionToSet = Vector3.zero;
+        //}
+        //    transform.position = new Vector3(300.5f, 48f, -409.5f);
+    }
 
     void Update()
     {
@@ -24,6 +37,12 @@ public class playerMovement : MonoBehaviour
             HandleRegularMovement();
         }
     }
+
+    //public void SetPos2()
+    //{
+    //    positionToSet = new Vector3(300.5f, 48f, -409.5f);
+    //    Debug.Log("Variable has been set to coordinates");
+    //}
 
     void HandleRegularMovement()
     {

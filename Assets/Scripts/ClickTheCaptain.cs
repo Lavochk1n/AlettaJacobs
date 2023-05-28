@@ -9,6 +9,7 @@ public class ClickTheCaptain : MonoBehaviour
 
     public GameObject camera1;
     public GameObject objectToClick;
+
     // Start is called before the first frame update
     void Start()
     {
