@@ -1,0 +1,2050 @@
+fileFormatVersion: 2
+guid: cd3a8529e9757dd4ea66cefd1f862b95
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: -2345710580863209470
+    second: board_01|back_side|Take 001|BaseLayer
+  - first:
+      74: 7133734474268950676
+    second: board_01|board_01|Take 001|BaseLayer
+  - first:
+      74: -3025240930249773849
+    second: board_01|board_02|Take 001|BaseLayer
+  - first:
+      74: 6996327243176151970
+    second: board_01|board_03|Take 001|BaseLayer
+  - first:
+      74: 9056905049505639478
+    second: board_01|board_04|Take 001|BaseLayer
+  - first:
+      74: 6766555213936223270
+    second: board_01|board_05|Take 001|BaseLayer
+  - first:
+      74: 6388414738075034208
+    second: board_01|board_06|Take 001|BaseLayer
+  - first:
+      74: 1450777512716172922
+    second: board_01|body_01|Take 001|BaseLayer
+  - first:
+      74: -7973908087673949350
+    second: board_01|body_02|Take 001|BaseLayer
+  - first:
+      74: 8845959737584928681
+    second: board_01|body_03|Take 001|BaseLayer
+  - first:
+      74: -2469346570780114053
+    second: board_01|case|Take 001|BaseLayer
+  - first:
+      74: 1523685956579179037
+    second: board_01|decor_01|Take 001|BaseLayer
+  - first:
+      74: -363815559000145800
+    second: board_01|decor_02|Take 001|BaseLayer
+  - first:
+      74: 2585653384147522502
+    second: board_01|decor_03|Take 001|BaseLayer
+  - first:
+      74: -8402303720371158780
+    second: board_01|decor_04|Take 001|BaseLayer
+  - first:
+      74: 6890611855658147937
+    second: board_01|decor_05|Take 001|BaseLayer
+  - first:
+      74: -4694778108885986906
+    second: board_01|decor_06|Take 001|BaseLayer
+  - first:
+      74: -3428262265946478862
+    second: board_01|decor_07|Take 001|BaseLayer
+  - first:
+      74: -1739566109561767062
+    second: board_01|decor_08|Take 001|BaseLayer
+  - first:
+      74: -2024506749275430881
+    second: board_01|decor_09|Take 001|BaseLayer
+  - first:
+      74: -355943901131686062
+    second: board_01|doors|Take 001|BaseLayer
+  - first:
+      74: -5873065809517391087
+    second: board_01|frame|Take 001|BaseLayer
+  - first:
+      74: 7240455156761934266
+    second: board_01|front_side|Take 001|BaseLayer
+  - first:
+      74: -8595532241145907315
+    second: board_01|legs|Take 001|BaseLayer
+  - first:
+      74: -5280067651690592526
+    second: board_01|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: -1544276598593069283
+    second: board_01|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: -6002826438659066398
+    second: board_01|rim|Take 001|BaseLayer
+  - first:
+      74: 1544760522988187665
+    second: doors|back_side|Take 001|BaseLayer
+  - first:
+      74: 84918685954665931
+    second: doors|board_01|Take 001|BaseLayer
+  - first:
+      74: -5976190251884684942
+    second: doors|board_02|Take 001|BaseLayer
+  - first:
+      74: 756866037875210067
+    second: doors|board_03|Take 001|BaseLayer
+  - first:
+      74: 8327976809386888386
+    second: doors|board_04|Take 001|BaseLayer
+  - first:
+      74: 4302009161807156168
+    second: doors|board_05|Take 001|BaseLayer
+  - first:
+      74: -8705778686183488366
+    second: doors|board_06|Take 001|BaseLayer
+  - first:
+      74: -3989255706770576430
+    second: doors|body_01|Take 001|BaseLayer
+  - first:
+      74: -9010234439895373827
+    second: doors|body_02|Take 001|BaseLayer
+  - first:
+      74: 2151528722766616928
+    second: doors|body_03|Take 001|BaseLayer
+  - first:
+      74: 3523412318472076072
+    second: doors|case|Take 001|BaseLayer
+  - first:
+      74: 233698038670923865
+    second: doors|decor_01|Take 001|BaseLayer
+  - first:
+      74: 3331662315565680871
+    second: doors|decor_02|Take 001|BaseLayer
+  - first:
+      74: -6437320782537661631
+    second: doors|decor_03|Take 001|BaseLayer
+  - first:
+      74: 8269557017377504950
+    second: doors|decor_04|Take 001|BaseLayer
+  - first:
+      74: -8299724309792708942
+    second: doors|decor_05|Take 001|BaseLayer
+  - first:
+      74: 4384744073598702659
+    second: doors|decor_06|Take 001|BaseLayer
+  - first:
+      74: -3779193874768258496
+    second: doors|decor_07|Take 001|BaseLayer
+  - first:
+      74: 3766795003583530253
+    second: doors|decor_08|Take 001|BaseLayer
+  - first:
+      74: 2225176054275305288
+    second: doors|decor_09|Take 001|BaseLayer
+  - first:
+      74: -7761229766428849597
+    second: doors|doors|Take 001|BaseLayer
+  - first:
+      74: -2801031507419739864
+    second: doors|frame|Take 001|BaseLayer
+  - first:
+      74: -482854083445755220
+    second: doors|front_side|Take 001|BaseLayer
+  - first:
+      74: 1431036546565665192
+    second: doors|legs|Take 001|BaseLayer
+  - first:
+      74: 4296500697182490628
+    second: doors|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: -6559845947087334505
+    second: doors|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: 9068226668321318576
+    second: doors|rim|Take 001|BaseLayer
+  - first:
+      74: -2041016475326647388
+    second: decor_08|back_side|Take 001|BaseLayer
+  - first:
+      74: -5820017274414050800
+    second: decor_08|board_01|Take 001|BaseLayer
+  - first:
+      74: -6654830942175596221
+    second: decor_08|board_02|Take 001|BaseLayer
+  - first:
+      74: -5482254466925761247
+    second: decor_08|board_03|Take 001|BaseLayer
+  - first:
+      74: 5319178146807608020
+    second: decor_08|board_04|Take 001|BaseLayer
+  - first:
+      74: 340011153899060230
+    second: decor_08|board_05|Take 001|BaseLayer
+  - first:
+      74: 8597003279026043055
+    second: decor_08|board_06|Take 001|BaseLayer
+  - first:
+      74: 7381684746526067421
+    second: decor_08|body_01|Take 001|BaseLayer
+  - first:
+      74: -674674153225672123
+    second: decor_08|body_02|Take 001|BaseLayer
+  - first:
+      74: 1627426572153277566
+    second: decor_08|body_03|Take 001|BaseLayer
+  - first:
+      74: -6197370290913589892
+    second: decor_08|case|Take 001|BaseLayer
+  - first:
+      74: -6953553039584412819
+    second: decor_08|decor_01|Take 001|BaseLayer
+  - first:
+      74: 5202915723780181968
+    second: decor_08|decor_02|Take 001|BaseLayer
+  - first:
+      74: -7216351420877896295
+    second: decor_08|decor_03|Take 001|BaseLayer
+  - first:
+      74: -4317040931084601044
+    second: decor_08|decor_04|Take 001|BaseLayer
+  - first:
+      74: -1178621563977021756
+    second: decor_08|decor_05|Take 001|BaseLayer
+  - first:
+      74: -7349941709823845578
+    second: decor_08|decor_06|Take 001|BaseLayer
+  - first:
+      74: 1737180315733794196
+    second: decor_08|decor_07|Take 001|BaseLayer
+  - first:
+      74: 4506142432536017490
+    second: decor_08|decor_08|Take 001|BaseLayer
+  - first:
+      74: -1199057793792944701
+    second: decor_08|decor_09|Take 001|BaseLayer
+  - first:
+      74: -6450114290602785566
+    second: decor_08|doors|Take 001|BaseLayer
+  - first:
+      74: -2179915269853211082
+    second: decor_08|frame|Take 001|BaseLayer
+  - first:
+      74: -4331543957697591777
+    second: decor_08|front_side|Take 001|BaseLayer
+  - first:
+      74: -3965669158569442154
+    second: decor_08|legs|Take 001|BaseLayer
+  - first:
+      74: -4119076195083468178
+    second: decor_08|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: 5353258028902479200
+    second: decor_08|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: 2303776801184752036
+    second: decor_08|rim|Take 001|BaseLayer
+  - first:
+      74: 8924773631712839272
+    second: board_02|back_side|Take 001|BaseLayer
+  - first:
+      74: 2057226879834261492
+    second: board_02|board_01|Take 001|BaseLayer
+  - first:
+      74: -4480074209139805392
+    second: board_02|board_02|Take 001|BaseLayer
+  - first:
+      74: -2002904294057723403
+    second: board_02|board_03|Take 001|BaseLayer
+  - first:
+      74: 73786521696115640
+    second: board_02|board_04|Take 001|BaseLayer
+  - first:
+      74: -8495357823963504098
+    second: board_02|board_05|Take 001|BaseLayer
+  - first:
+      74: 4972888597538898435
+    second: board_02|board_06|Take 001|BaseLayer
+  - first:
+      74: -2822428142352918737
+    second: board_02|body_01|Take 001|BaseLayer
+  - first:
+      74: 5562758319287204646
+    second: board_02|body_02|Take 001|BaseLayer
+  - first:
+      74: -6052352048180851953
+    second: board_02|body_03|Take 001|BaseLayer
+  - first:
+      74: 627792428954470912
+    second: board_02|case|Take 001|BaseLayer
+  - first:
+      74: 5668917860770447987
+    second: board_02|decor_01|Take 001|BaseLayer
+  - first:
+      74: -839422924180658622
+    second: board_02|decor_02|Take 001|BaseLayer
+  - first:
+      74: -3384979916745194655
+    second: board_02|decor_03|Take 001|BaseLayer
+  - first:
+      74: -7533174384469700153
+    second: board_02|decor_04|Take 001|BaseLayer
+  - first:
+      74: 4752901432406259846
+    second: board_02|decor_05|Take 001|BaseLayer
+  - first:
+      74: 2110242247671955681
+    second: board_02|decor_06|Take 001|BaseLayer
+  - first:
+      74: -6890336911815478313
+    second: board_02|decor_07|Take 001|BaseLayer
+  - first:
+      74: -57752209960320675
+    second: board_02|decor_08|Take 001|BaseLayer
+  - first:
+      74: -4523687364333355867
+    second: board_02|decor_09|Take 001|BaseLayer
+  - first:
+      74: -7293708498648127501
+    second: board_02|doors|Take 001|BaseLayer
+  - first:
+      74: -8008529014184098786
+    second: board_02|frame|Take 001|BaseLayer
+  - first:
+      74: 7355550386686652453
+    second: board_02|front_side|Take 001|BaseLayer
+  - first:
+      74: 8489690270064125294
+    second: board_02|legs|Take 001|BaseLayer
+  - first:
+      74: -3678817610385618614
+    second: board_02|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: 3192440291233608455
+    second: board_02|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: -8623970805744836799
+    second: board_02|rim|Take 001|BaseLayer
+  - first:
+      74: -6388286375084270608
+    second: body_02|back_side|Take 001|BaseLayer
+  - first:
+      74: 1688550462909628415
+    second: body_02|board_01|Take 001|BaseLayer
+  - first:
+      74: 3011836693595378768
+    second: body_02|board_02|Take 001|BaseLayer
+  - first:
+      74: 7798199953095263837
+    second: body_02|board_03|Take 001|BaseLayer
+  - first:
+      74: -1897897889598216531
+    second: body_02|board_04|Take 001|BaseLayer
+  - first:
+      74: -7505343157845154177
+    second: body_02|board_05|Take 001|BaseLayer
+  - first:
+      74: 8224433960058612814
+    second: body_02|board_06|Take 001|BaseLayer
+  - first:
+      74: -8088392615451238656
+    second: body_02|body_01|Take 001|BaseLayer
+  - first:
+      74: 1427363737030800257
+    second: body_02|body_02|Take 001|BaseLayer
+  - first:
+      74: 3252962412586493304
+    second: body_02|body_03|Take 001|BaseLayer
+  - first:
+      74: 6238550220915950664
+    second: body_02|case|Take 001|BaseLayer
+  - first:
+      74: 125769572743378510
+    second: body_02|decor_01|Take 001|BaseLayer
+  - first:
+      74: 522868606206889941
+    second: body_02|decor_02|Take 001|BaseLayer
+  - first:
+      74: -2277878737101845070
+    second: body_02|decor_03|Take 001|BaseLayer
+  - first:
+      74: -2602236296640521995
+    second: body_02|decor_04|Take 001|BaseLayer
+  - first:
+      74: -4125332661172453062
+    second: body_02|decor_05|Take 001|BaseLayer
+  - first:
+      74: -5322197833975405300
+    second: body_02|decor_06|Take 001|BaseLayer
+  - first:
+      74: -6299462400468883128
+    second: body_02|decor_07|Take 001|BaseLayer
+  - first:
+      74: -330885154303245107
+    second: body_02|decor_08|Take 001|BaseLayer
+  - first:
+      74: -3790969250861853815
+    second: body_02|decor_09|Take 001|BaseLayer
+  - first:
+      74: 2756931078589574507
+    second: body_02|doors|Take 001|BaseLayer
+  - first:
+      74: 5210914441181186379
+    second: body_02|frame|Take 001|BaseLayer
+  - first:
+      74: -7785269706911454509
+    second: body_02|front_side|Take 001|BaseLayer
+  - first:
+      74: 1437533959155836979
+    second: body_02|legs|Take 001|BaseLayer
+  - first:
+      74: -1946978279482959326
+    second: body_02|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: 7758748360030891761
+    second: body_02|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: 107709336934762251
+    second: body_02|rim|Take 001|BaseLayer
+  - first:
+      74: 7839716839656716532
+    second: board_04|back_side|Take 001|BaseLayer
+  - first:
+      74: 2371692100150381153
+    second: board_04|board_01|Take 001|BaseLayer
+  - first:
+      74: 1652527790161837715
+    second: board_04|board_02|Take 001|BaseLayer
+  - first:
+      74: 8892793876928632670
+    second: board_04|board_03|Take 001|BaseLayer
+  - first:
+      74: 3553527628997953876
+    second: board_04|board_04|Take 001|BaseLayer
+  - first:
+      74: 1761988846466610063
+    second: board_04|board_05|Take 001|BaseLayer
+  - first:
+      74: -5076722114281029746
+    second: board_04|board_06|Take 001|BaseLayer
+  - first:
+      74: -374281775828790570
+    second: board_04|body_01|Take 001|BaseLayer
+  - first:
+      74: 4315768096586669297
+    second: board_04|body_02|Take 001|BaseLayer
+  - first:
+      74: 704974561214533521
+    second: board_04|body_03|Take 001|BaseLayer
+  - first:
+      74: 14551351881320788
+    second: board_04|case|Take 001|BaseLayer
+  - first:
+      74: -9147147676978608358
+    second: board_04|decor_01|Take 001|BaseLayer
+  - first:
+      74: 2817983364660120012
+    second: board_04|decor_02|Take 001|BaseLayer
+  - first:
+      74: 4033478130469765261
+    second: board_04|decor_03|Take 001|BaseLayer
+  - first:
+      74: 1128454982486940478
+    second: board_04|decor_04|Take 001|BaseLayer
+  - first:
+      74: 2107931999227153019
+    second: board_04|decor_05|Take 001|BaseLayer
+  - first:
+      74: 2238180651181759700
+    second: board_04|decor_06|Take 001|BaseLayer
+  - first:
+      74: -5423910480514336891
+    second: board_04|decor_07|Take 001|BaseLayer
+  - first:
+      74: 5378295628284920989
+    second: board_04|decor_08|Take 001|BaseLayer
+  - first:
+      74: 4556843323590234013
+    second: board_04|decor_09|Take 001|BaseLayer
+  - first:
+      74: -5228688655646217022
+    second: board_04|doors|Take 001|BaseLayer
+  - first:
+      74: 8626072470866460497
+    second: board_04|frame|Take 001|BaseLayer
+  - first:
+      74: -3421083028903103928
+    second: board_04|front_side|Take 001|BaseLayer
+  - first:
+      74: -6307238533886932431
+    second: board_04|legs|Take 001|BaseLayer
+  - first:
+      74: -5966325431477015943
+    second: board_04|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: 3932089386556970856
+    second: board_04|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: 7517230496691503120
+    second: board_04|rim|Take 001|BaseLayer
+  - first:
+      74: -7176635832189640734
+    second: metal_objects_02|back_side|Take 001|BaseLayer
+  - first:
+      74: -1055796027966935685
+    second: metal_objects_02|board_01|Take 001|BaseLayer
+  - first:
+      74: 3136477614384726929
+    second: metal_objects_02|board_02|Take 001|BaseLayer
+  - first:
+      74: -5623212355212439369
+    second: metal_objects_02|board_03|Take 001|BaseLayer
+  - first:
+      74: 181544357738093147
+    second: metal_objects_02|board_04|Take 001|BaseLayer
+  - first:
+      74: -5241355596078017601
+    second: metal_objects_02|board_05|Take 001|BaseLayer
+  - first:
+      74: 6431390784919609706
+    second: metal_objects_02|board_06|Take 001|BaseLayer
+  - first:
+      74: 4490036014378438734
+    second: metal_objects_02|body_01|Take 001|BaseLayer
+  - first:
+      74: -4175343649497569927
+    second: metal_objects_02|body_02|Take 001|BaseLayer
+  - first:
+      74: -4528126248012143716
+    second: metal_objects_02|body_03|Take 001|BaseLayer
+  - first:
+      74: -6519233073666145140
+    second: metal_objects_02|case|Take 001|BaseLayer
+  - first:
+      74: -5069782036770355017
+    second: metal_objects_02|decor_01|Take 001|BaseLayer
+  - first:
+      74: 6418520690446686348
+    second: metal_objects_02|decor_02|Take 001|BaseLayer
+  - first:
+      74: -812892850755371583
+    second: metal_objects_02|decor_03|Take 001|BaseLayer
+  - first:
+      74: 3204505635154580137
+    second: metal_objects_02|decor_04|Take 001|BaseLayer
+  - first:
+      74: 1974365705898799597
+    second: metal_objects_02|decor_05|Take 001|BaseLayer
+  - first:
+      74: 4786877253749066080
+    second: metal_objects_02|decor_06|Take 001|BaseLayer
+  - first:
+      74: -6436328236673167960
+    second: metal_objects_02|decor_07|Take 001|BaseLayer
+  - first:
+      74: -2917838598102528067
+    second: metal_objects_02|decor_08|Take 001|BaseLayer
+  - first:
+      74: 2008650339392068228
+    second: metal_objects_02|decor_09|Take 001|BaseLayer
+  - first:
+      74: 1641604440989610510
+    second: metal_objects_02|doors|Take 001|BaseLayer
+  - first:
+      74: 1505432073148627001
+    second: metal_objects_02|frame|Take 001|BaseLayer
+  - first:
+      74: -5598339703985360022
+    second: metal_objects_02|front_side|Take 001|BaseLayer
+  - first:
+      74: 4801706888286353423
+    second: metal_objects_02|legs|Take 001|BaseLayer
+  - first:
+      74: -208346092078515234
+    second: metal_objects_02|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: -5767100733947977361
+    second: metal_objects_02|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: -8735265760738826121
+    second: metal_objects_02|rim|Take 001|BaseLayer
+  - first:
+      74: -8670198259581330177
+    second: frame|back_side|Take 001|BaseLayer
+  - first:
+      74: -3019934022142940958
+    second: frame|board_01|Take 001|BaseLayer
+  - first:
+      74: -5116825998222631091
+    second: frame|board_02|Take 001|BaseLayer
+  - first:
+      74: -1002914447587887524
+    second: frame|board_03|Take 001|BaseLayer
+  - first:
+      74: -7600084414711560332
+    second: frame|board_04|Take 001|BaseLayer
+  - first:
+      74: -1449006161866681774
+    second: frame|board_05|Take 001|BaseLayer
+  - first:
+      74: -6992260655512786718
+    second: frame|board_06|Take 001|BaseLayer
+  - first:
+      74: -6304549637778371027
+    second: frame|body_01|Take 001|BaseLayer
+  - first:
+      74: -2700697671945785760
+    second: frame|body_02|Take 001|BaseLayer
+  - first:
+      74: 661985381549132438
+    second: frame|body_03|Take 001|BaseLayer
+  - first:
+      74: 8132995497402029994
+    second: frame|case|Take 001|BaseLayer
+  - first:
+      74: 845732625481179859
+    second: frame|decor_01|Take 001|BaseLayer
+  - first:
+      74: -3882175517061326301
+    second: frame|decor_02|Take 001|BaseLayer
+  - first:
+      74: 3593740997251978596
+    second: frame|decor_03|Take 001|BaseLayer
+  - first:
+      74: 1706713258860591876
+    second: frame|decor_04|Take 001|BaseLayer
+  - first:
+      74: 5274862246095653609
+    second: frame|decor_05|Take 001|BaseLayer
+  - first:
+      74: 5877176578911347988
+    second: frame|decor_06|Take 001|BaseLayer
+  - first:
+      74: 5643015832479475155
+    second: frame|decor_07|Take 001|BaseLayer
+  - first:
+      74: -931912246654973890
+    second: frame|decor_08|Take 001|BaseLayer
+  - first:
+      74: 5852034759393840686
+    second: frame|decor_09|Take 001|BaseLayer
+  - first:
+      74: 6828414723554969607
+    second: frame|doors|Take 001|BaseLayer
+  - first:
+      74: 4113912638568125004
+    second: frame|frame|Take 001|BaseLayer
+  - first:
+      74: -6345785477752901076
+    second: frame|front_side|Take 001|BaseLayer
+  - first:
+      74: -1954222563241704584
+    second: frame|legs|Take 001|BaseLayer
+  - first:
+      74: -7551407294640566160
+    second: frame|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: 5717082975584176379
+    second: frame|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: -8516931707383451158
+    second: frame|rim|Take 001|BaseLayer
+  - first:
+      74: 1742357761105726552
+    second: back_side|back_side|Take 001|BaseLayer
+  - first:
+      74: -8688322502192184181
+    second: back_side|board_01|Take 001|BaseLayer
+  - first:
+      74: -3589599011880656152
+    second: back_side|board_02|Take 001|BaseLayer
+  - first:
+      74: -3656770970163679122
+    second: back_side|board_03|Take 001|BaseLayer
+  - first:
+      74: 4347551309115523956
+    second: back_side|board_04|Take 001|BaseLayer
+  - first:
+      74: 3125288850159253717
+    second: back_side|board_05|Take 001|BaseLayer
+  - first:
+      74: 1698795537424318523
+    second: back_side|board_06|Take 001|BaseLayer
+  - first:
+      74: 7799592440152974730
+    second: back_side|body_01|Take 001|BaseLayer
+  - first:
+      74: 8088571820500580299
+    second: back_side|body_02|Take 001|BaseLayer
+  - first:
+      74: 3648371285809535010
+    second: back_side|body_03|Take 001|BaseLayer
+  - first:
+      74: 3946923650969523081
+    second: back_side|case|Take 001|BaseLayer
+  - first:
+      74: -7058775593409665029
+    second: back_side|decor_01|Take 001|BaseLayer
+  - first:
+      74: -4925019575403930716
+    second: back_side|decor_02|Take 001|BaseLayer
+  - first:
+      74: -738731612102715095
+    second: back_side|decor_03|Take 001|BaseLayer
+  - first:
+      74: -5596028480500835761
+    second: back_side|decor_04|Take 001|BaseLayer
+  - first:
+      74: 1376850418771365581
+    second: back_side|decor_05|Take 001|BaseLayer
+  - first:
+      74: 1790781986000861384
+    second: back_side|decor_06|Take 001|BaseLayer
+  - first:
+      74: -7800124297973438962
+    second: back_side|decor_07|Take 001|BaseLayer
+  - first:
+      74: -727707183954670954
+    second: back_side|decor_08|Take 001|BaseLayer
+  - first:
+      74: 2149689764327887990
+    second: back_side|decor_09|Take 001|BaseLayer
+  - first:
+      74: -4304612937502666008
+    second: back_side|doors|Take 001|BaseLayer
+  - first:
+      74: -6701268861175518768
+    second: back_side|frame|Take 001|BaseLayer
+  - first:
+      74: -2974524850686119590
+    second: back_side|front_side|Take 001|BaseLayer
+  - first:
+      74: 4094039917837142268
+    second: back_side|legs|Take 001|BaseLayer
+  - first:
+      74: -4697207716820979071
+    second: back_side|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: -1718561542962376026
+    second: back_side|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: -6614622272567462665
+    second: back_side|rim|Take 001|BaseLayer
+  - first:
+      74: -8356618096647069167
+    second: board_03|back_side|Take 001|BaseLayer
+  - first:
+      74: -3597953829097162642
+    second: board_03|board_01|Take 001|BaseLayer
+  - first:
+      74: -2843677558767306216
+    second: board_03|board_02|Take 001|BaseLayer
+  - first:
+      74: -5517337533277059673
+    second: board_03|board_03|Take 001|BaseLayer
+  - first:
+      74: -5565405435063019827
+    second: board_03|board_04|Take 001|BaseLayer
+  - first:
+      74: 2916126690693128512
+    second: board_03|board_05|Take 001|BaseLayer
+  - first:
+      74: 1283369195395610453
+    second: board_03|board_06|Take 001|BaseLayer
+  - first:
+      74: -8394328287854623567
+    second: board_03|body_01|Take 001|BaseLayer
+  - first:
+      74: -8956379416936484509
+    second: board_03|body_02|Take 001|BaseLayer
+  - first:
+      74: 1949251657257037726
+    second: board_03|body_03|Take 001|BaseLayer
+  - first:
+      74: 2082700121348311415
+    second: board_03|case|Take 001|BaseLayer
+  - first:
+      74: -8010417444593320267
+    second: board_03|decor_01|Take 001|BaseLayer
+  - first:
+      74: -1115793043432827044
+    second: board_03|decor_02|Take 001|BaseLayer
+  - first:
+      74: 3247133057948967273
+    second: board_03|decor_03|Take 001|BaseLayer
+  - first:
+      74: 2529212358762924314
+    second: board_03|decor_04|Take 001|BaseLayer
+  - first:
+      74: 707820811483852801
+    second: board_03|decor_05|Take 001|BaseLayer
+  - first:
+      74: -1494967306788981256
+    second: board_03|decor_06|Take 001|BaseLayer
+  - first:
+      74: 3614528569916176002
+    second: board_03|decor_07|Take 001|BaseLayer
+  - first:
+      74: 3995627274674131657
+    second: board_03|decor_08|Take 001|BaseLayer
+  - first:
+      74: -3340453612420803386
+    second: board_03|decor_09|Take 001|BaseLayer
+  - first:
+      74: -3362023507436183886
+    second: board_03|doors|Take 001|BaseLayer
+  - first:
+      74: -1942636008054633213
+    second: board_03|frame|Take 001|BaseLayer
+  - first:
+      74: 756756813543738777
+    second: board_03|front_side|Take 001|BaseLayer
+  - first:
+      74: 2193406901747613789
+    second: board_03|legs|Take 001|BaseLayer
+  - first:
+      74: 2499350067060318197
+    second: board_03|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: 1525913316307820321
+    second: board_03|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: 5074179621407855294
+    second: board_03|rim|Take 001|BaseLayer
+  - first:
+      74: 1897604686491281248
+    second: legs|back_side|Take 001|BaseLayer
+  - first:
+      74: -5797679486612409313
+    second: legs|board_01|Take 001|BaseLayer
+  - first:
+      74: 3956124839466505004
+    second: legs|board_02|Take 001|BaseLayer
+  - first:
+      74: -5689662173938280050
+    second: legs|board_03|Take 001|BaseLayer
+  - first:
+      74: 8580364253925573323
+    second: legs|board_04|Take 001|BaseLayer
+  - first:
+      74: -2725285236029803008
+    second: legs|board_05|Take 001|BaseLayer
+  - first:
+      74: 7101173212896264685
+    second: legs|board_06|Take 001|BaseLayer
+  - first:
+      74: -6009568993388789225
+    second: legs|body_01|Take 001|BaseLayer
+  - first:
+      74: -1156067890780088442
+    second: legs|body_02|Take 001|BaseLayer
+  - first:
+      74: 6932507270142135227
+    second: legs|body_03|Take 001|BaseLayer
+  - first:
+      74: -5686874031581826196
+    second: legs|case|Take 001|BaseLayer
+  - first:
+      74: 1035075887346531911
+    second: legs|decor_01|Take 001|BaseLayer
+  - first:
+      74: 1720340149438749192
+    second: legs|decor_02|Take 001|BaseLayer
+  - first:
+      74: -6643589975361120315
+    second: legs|decor_03|Take 001|BaseLayer
+  - first:
+      74: -6890522263059539353
+    second: legs|decor_04|Take 001|BaseLayer
+  - first:
+      74: -3212312013482703213
+    second: legs|decor_05|Take 001|BaseLayer
+  - first:
+      74: 3326789694251299378
+    second: legs|decor_06|Take 001|BaseLayer
+  - first:
+      74: -2089757801567438562
+    second: legs|decor_07|Take 001|BaseLayer
+  - first:
+      74: 2789942409718512627
+    second: legs|decor_08|Take 001|BaseLayer
+  - first:
+      74: 7404112191695407688
+    second: legs|decor_09|Take 001|BaseLayer
+  - first:
+      74: -8903494944463949785
+    second: legs|doors|Take 001|BaseLayer
+  - first:
+      74: 3167000730420326664
+    second: legs|frame|Take 001|BaseLayer
+  - first:
+      74: 1063197785060675354
+    second: legs|front_side|Take 001|BaseLayer
+  - first:
+      74: 695518673413201255
+    second: legs|legs|Take 001|BaseLayer
+  - first:
+      74: 565635450259701838
+    second: legs|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: 1341705454951973633
+    second: legs|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: 7473371303105986553
+    second: legs|rim|Take 001|BaseLayer
+  - first:
+      74: 5715241857018267399
+    second: board_05|back_side|Take 001|BaseLayer
+  - first:
+      74: 698288069536346073
+    second: board_05|board_01|Take 001|BaseLayer
+  - first:
+      74: 925176817052663998
+    second: board_05|board_02|Take 001|BaseLayer
+  - first:
+      74: -1867755072871600446
+    second: board_05|board_03|Take 001|BaseLayer
+  - first:
+      74: 7871102534385052145
+    second: board_05|board_04|Take 001|BaseLayer
+  - first:
+      74: 7797078461807492025
+    second: board_05|board_05|Take 001|BaseLayer
+  - first:
+      74: -6172877076793499690
+    second: board_05|board_06|Take 001|BaseLayer
+  - first:
+      74: -3609309161626442906
+    second: board_05|body_01|Take 001|BaseLayer
+  - first:
+      74: 1741715120835593072
+    second: board_05|body_02|Take 001|BaseLayer
+  - first:
+      74: 6917038838529400706
+    second: board_05|body_03|Take 001|BaseLayer
+  - first:
+      74: -7830484509893165345
+    second: board_05|case|Take 001|BaseLayer
+  - first:
+      74: 6659036891814150046
+    second: board_05|decor_01|Take 001|BaseLayer
+  - first:
+      74: 3863247847817290862
+    second: board_05|decor_02|Take 001|BaseLayer
+  - first:
+      74: 166146446026534740
+    second: board_05|decor_03|Take 001|BaseLayer
+  - first:
+      74: 3225642660149103689
+    second: board_05|decor_04|Take 001|BaseLayer
+  - first:
+      74: -7775986103712158959
+    second: board_05|decor_05|Take 001|BaseLayer
+  - first:
+      74: 7100213741644299752
+    second: board_05|decor_06|Take 001|BaseLayer
+  - first:
+      74: 4395564188073198155
+    second: board_05|decor_07|Take 001|BaseLayer
+  - first:
+      74: -6399585491040437437
+    second: board_05|decor_08|Take 001|BaseLayer
+  - first:
+      74: 3273314565747513593
+    second: board_05|decor_09|Take 001|BaseLayer
+  - first:
+      74: 8772469039605548015
+    second: board_05|doors|Take 001|BaseLayer
+  - first:
+      74: 3941062897148855939
+    second: board_05|frame|Take 001|BaseLayer
+  - first:
+      74: -2086665602811061649
+    second: board_05|front_side|Take 001|BaseLayer
+  - first:
+      74: -8837237550465643930
+    second: board_05|legs|Take 001|BaseLayer
+  - first:
+      74: 8608511652925448055
+    second: board_05|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: 6004595614189917752
+    second: board_05|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: -8179487584309667281
+    second: board_05|rim|Take 001|BaseLayer
+  - first:
+      74: -2679607531718940745
+    second: decor_05|back_side|Take 001|BaseLayer
+  - first:
+      74: 2428826054676909888
+    second: decor_05|board_01|Take 001|BaseLayer
+  - first:
+      74: -5367094373170149378
+    second: decor_05|board_02|Take 001|BaseLayer
+  - first:
+      74: -7055598503317804271
+    second: decor_05|board_03|Take 001|BaseLayer
+  - first:
+      74: -6108814991127746666
+    second: decor_05|board_04|Take 001|BaseLayer
+  - first:
+      74: -7767713175840066759
+    second: decor_05|board_05|Take 001|BaseLayer
+  - first:
+      74: -985116077134550709
+    second: decor_05|board_06|Take 001|BaseLayer
+  - first:
+      74: 750492050240892830
+    second: decor_05|body_01|Take 001|BaseLayer
+  - first:
+      74: 3116683925925238709
+    second: decor_05|body_02|Take 001|BaseLayer
+  - first:
+      74: -3711740522818143236
+    second: decor_05|body_03|Take 001|BaseLayer
+  - first:
+      74: 753667733294573590
+    second: decor_05|case|Take 001|BaseLayer
+  - first:
+      74: -4649872652952728185
+    second: decor_05|decor_01|Take 001|BaseLayer
+  - first:
+      74: -77020521586814597
+    second: decor_05|decor_02|Take 001|BaseLayer
+  - first:
+      74: -3418706554304145263
+    second: decor_05|decor_03|Take 001|BaseLayer
+  - first:
+      74: -8002426963482907749
+    second: decor_05|decor_04|Take 001|BaseLayer
+  - first:
+      74: 6867267849036306834
+    second: decor_05|decor_05|Take 001|BaseLayer
+  - first:
+      74: 64107377839489118
+    second: decor_05|decor_06|Take 001|BaseLayer
+  - first:
+      74: 5123923340258397341
+    second: decor_05|decor_07|Take 001|BaseLayer
+  - first:
+      74: 1446357486941855161
+    second: decor_05|decor_08|Take 001|BaseLayer
+  - first:
+      74: 782245180996565770
+    second: decor_05|decor_09|Take 001|BaseLayer
+  - first:
+      74: 7232183467032767752
+    second: decor_05|doors|Take 001|BaseLayer
+  - first:
+      74: 3222426351289452700
+    second: decor_05|frame|Take 001|BaseLayer
+  - first:
+      74: -2282017787938197234
+    second: decor_05|front_side|Take 001|BaseLayer
+  - first:
+      74: 4528261515578833332
+    second: decor_05|legs|Take 001|BaseLayer
+  - first:
+      74: -2296455062317135895
+    second: decor_05|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: -469445320458030678
+    second: decor_05|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: -8435553972214008722
+    second: decor_05|rim|Take 001|BaseLayer
+  - first:
+      74: -4435661789816389148
+    second: case|back_side|Take 001|BaseLayer
+  - first:
+      74: -1610743654286411181
+    second: case|board_01|Take 001|BaseLayer
+  - first:
+      74: 7833260757990304211
+    second: case|board_02|Take 001|BaseLayer
+  - first:
+      74: 2347106168651066909
+    second: case|board_03|Take 001|BaseLayer
+  - first:
+      74: -8351021265044502887
+    second: case|board_04|Take 001|BaseLayer
+  - first:
+      74: 3583363135888249292
+    second: case|board_05|Take 001|BaseLayer
+  - first:
+      74: -225350316630439897
+    second: case|board_06|Take 001|BaseLayer
+  - first:
+      74: -910188287200814767
+    second: case|body_01|Take 001|BaseLayer
+  - first:
+      74: -1409221779911990667
+    second: case|body_02|Take 001|BaseLayer
+  - first:
+      74: -5457046364279941727
+    second: case|body_03|Take 001|BaseLayer
+  - first:
+      74: -6283734011622408518
+    second: case|case|Take 001|BaseLayer
+  - first:
+      74: 5883967281824861076
+    second: case|decor_01|Take 001|BaseLayer
+  - first:
+      74: 2976670925838656347
+    second: case|decor_02|Take 001|BaseLayer
+  - first:
+      74: 4547596098196465178
+    second: case|decor_03|Take 001|BaseLayer
+  - first:
+      74: -5693071077074439739
+    second: case|decor_04|Take 001|BaseLayer
+  - first:
+      74: 5806076169073917284
+    second: case|decor_05|Take 001|BaseLayer
+  - first:
+      74: -3449480761198119278
+    second: case|decor_06|Take 001|BaseLayer
+  - first:
+      74: -2653355192891471372
+    second: case|decor_07|Take 001|BaseLayer
+  - first:
+      74: -7155286060523872493
+    second: case|decor_08|Take 001|BaseLayer
+  - first:
+      74: 4179564135972075123
+    second: case|decor_09|Take 001|BaseLayer
+  - first:
+      74: 3708947291794741163
+    second: case|doors|Take 001|BaseLayer
+  - first:
+      74: 2502079567570466318
+    second: case|frame|Take 001|BaseLayer
+  - first:
+      74: -1521761620968530042
+    second: case|front_side|Take 001|BaseLayer
+  - first:
+      74: 9066495027032542369
+    second: case|legs|Take 001|BaseLayer
+  - first:
+      74: 7390832380529545406
+    second: case|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: -147585967487733882
+    second: case|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: -4279391854658021210
+    second: case|rim|Take 001|BaseLayer
+  - first:
+      74: 7597740924080835081
+    second: decor_01|back_side|Take 001|BaseLayer
+  - first:
+      74: -5378057691969611364
+    second: decor_01|board_01|Take 001|BaseLayer
+  - first:
+      74: 582576524973397202
+    second: decor_01|board_02|Take 001|BaseLayer
+  - first:
+      74: 1970218132068884025
+    second: decor_01|board_03|Take 001|BaseLayer
+  - first:
+      74: -4650417931216034595
+    second: decor_01|board_04|Take 001|BaseLayer
+  - first:
+      74: 2213132036055587353
+    second: decor_01|board_05|Take 001|BaseLayer
+  - first:
+      74: -6995779400760241821
+    second: decor_01|board_06|Take 001|BaseLayer
+  - first:
+      74: 885342323213005160
+    second: decor_01|body_01|Take 001|BaseLayer
+  - first:
+      74: 4093575429175149216
+    second: decor_01|body_02|Take 001|BaseLayer
+  - first:
+      74: -2085534719421700610
+    second: decor_01|body_03|Take 001|BaseLayer
+  - first:
+      74: 3862802429729609578
+    second: decor_01|case|Take 001|BaseLayer
+  - first:
+      74: -2234248857078582459
+    second: decor_01|decor_01|Take 001|BaseLayer
+  - first:
+      74: 8022587834098175750
+    second: decor_01|decor_02|Take 001|BaseLayer
+  - first:
+      74: 6128377809785536297
+    second: decor_01|decor_03|Take 001|BaseLayer
+  - first:
+      74: 3120487124578414195
+    second: decor_01|decor_04|Take 001|BaseLayer
+  - first:
+      74: -2099924633209828169
+    second: decor_01|decor_05|Take 001|BaseLayer
+  - first:
+      74: 6534013948788958039
+    second: decor_01|decor_06|Take 001|BaseLayer
+  - first:
+      74: -4272878822930173907
+    second: decor_01|decor_07|Take 001|BaseLayer
+  - first:
+      74: -7805793859598079604
+    second: decor_01|decor_08|Take 001|BaseLayer
+  - first:
+      74: 1513716553426157152
+    second: decor_01|decor_09|Take 001|BaseLayer
+  - first:
+      74: -8199459304545244707
+    second: decor_01|doors|Take 001|BaseLayer
+  - first:
+      74: 6410287027180449795
+    second: decor_01|frame|Take 001|BaseLayer
+  - first:
+      74: -5292364065267282205
+    second: decor_01|front_side|Take 001|BaseLayer
+  - first:
+      74: -9218854826859133490
+    second: decor_01|legs|Take 001|BaseLayer
+  - first:
+      74: -4707507029441340432
+    second: decor_01|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: 6555371571920068155
+    second: decor_01|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: 1350110229925342958
+    second: decor_01|rim|Take 001|BaseLayer
+  - first:
+      74: 4870379968818359669
+    second: front_side|back_side|Take 001|BaseLayer
+  - first:
+      74: 6898671866581916668
+    second: front_side|board_01|Take 001|BaseLayer
+  - first:
+      74: 6760511785034687420
+    second: front_side|board_02|Take 001|BaseLayer
+  - first:
+      74: 6760415392765538736
+    second: front_side|board_03|Take 001|BaseLayer
+  - first:
+      74: -1724942556807373489
+    second: front_side|board_04|Take 001|BaseLayer
+  - first:
+      74: 4453573484776125455
+    second: front_side|board_05|Take 001|BaseLayer
+  - first:
+      74: 529379129180031863
+    second: front_side|board_06|Take 001|BaseLayer
+  - first:
+      74: 7044164768519203834
+    second: front_side|body_01|Take 001|BaseLayer
+  - first:
+      74: -3625763495425474594
+    second: front_side|body_02|Take 001|BaseLayer
+  - first:
+      74: -8506099418210843354
+    second: front_side|body_03|Take 001|BaseLayer
+  - first:
+      74: 5199531641322706843
+    second: front_side|case|Take 001|BaseLayer
+  - first:
+      74: 8256735018136420275
+    second: front_side|decor_01|Take 001|BaseLayer
+  - first:
+      74: 598146480247612388
+    second: front_side|decor_02|Take 001|BaseLayer
+  - first:
+      74: 4031345254730243241
+    second: front_side|decor_03|Take 001|BaseLayer
+  - first:
+      74: -2302333538217058823
+    second: front_side|decor_04|Take 001|BaseLayer
+  - first:
+      74: 2267652213500916451
+    second: front_side|decor_05|Take 001|BaseLayer
+  - first:
+      74: 7543733801524679696
+    second: front_side|decor_06|Take 001|BaseLayer
+  - first:
+      74: 5972919966086897233
+    second: front_side|decor_07|Take 001|BaseLayer
+  - first:
+      74: 1501379583828638096
+    second: front_side|decor_08|Take 001|BaseLayer
+  - first:
+      74: 7183225336006296039
+    second: front_side|decor_09|Take 001|BaseLayer
+  - first:
+      74: -8064428917167804092
+    second: front_side|doors|Take 001|BaseLayer
+  - first:
+      74: -7826921557950265358
+    second: front_side|frame|Take 001|BaseLayer
+  - first:
+      74: 3709439621187779104
+    second: front_side|front_side|Take 001|BaseLayer
+  - first:
+      74: 7754495200970087806
+    second: front_side|legs|Take 001|BaseLayer
+  - first:
+      74: 7961384806935980964
+    second: front_side|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: 6059143838201182950
+    second: front_side|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: -8858570709363046332
+    second: front_side|rim|Take 001|BaseLayer
+  - first:
+      74: 2211564117635982001
+    second: decor_06|back_side|Take 001|BaseLayer
+  - first:
+      74: -783134458393955744
+    second: decor_06|board_01|Take 001|BaseLayer
+  - first:
+      74: 8607585564837815591
+    second: decor_06|board_02|Take 001|BaseLayer
+  - first:
+      74: -4245951124244941386
+    second: decor_06|board_03|Take 001|BaseLayer
+  - first:
+      74: 1478347292800385235
+    second: decor_06|board_04|Take 001|BaseLayer
+  - first:
+      74: -4469052265123964286
+    second: decor_06|board_05|Take 001|BaseLayer
+  - first:
+      74: 7470770169810948302
+    second: decor_06|board_06|Take 001|BaseLayer
+  - first:
+      74: 3803765657496322865
+    second: decor_06|body_01|Take 001|BaseLayer
+  - first:
+      74: -5196105380424261476
+    second: decor_06|body_02|Take 001|BaseLayer
+  - first:
+      74: -8373354400589756180
+    second: decor_06|body_03|Take 001|BaseLayer
+  - first:
+      74: 5614768319438101194
+    second: decor_06|case|Take 001|BaseLayer
+  - first:
+      74: -6138048679874217989
+    second: decor_06|decor_01|Take 001|BaseLayer
+  - first:
+      74: 6769859849876328753
+    second: decor_06|decor_02|Take 001|BaseLayer
+  - first:
+      74: 8855815341816132771
+    second: decor_06|decor_03|Take 001|BaseLayer
+  - first:
+      74: -6531633474993566764
+    second: decor_06|decor_04|Take 001|BaseLayer
+  - first:
+      74: 7681838097160554531
+    second: decor_06|decor_05|Take 001|BaseLayer
+  - first:
+      74: -7533476309573021058
+    second: decor_06|decor_06|Take 001|BaseLayer
+  - first:
+      74: -4746746803868053293
+    second: decor_06|decor_07|Take 001|BaseLayer
+  - first:
+      74: -8747763018947798533
+    second: decor_06|decor_08|Take 001|BaseLayer
+  - first:
+      74: -1287763284358886806
+    second: decor_06|decor_09|Take 001|BaseLayer
+  - first:
+      74: 4838145425042493751
+    second: decor_06|doors|Take 001|BaseLayer
+  - first:
+      74: 5444733489901460962
+    second: decor_06|frame|Take 001|BaseLayer
+  - first:
+      74: 8866596322654957780
+    second: decor_06|front_side|Take 001|BaseLayer
+  - first:
+      74: -660254545153738749
+    second: decor_06|legs|Take 001|BaseLayer
+  - first:
+      74: 7589092826220706510
+    second: decor_06|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: 4363721784901984554
+    second: decor_06|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: -209826753227533742
+    second: decor_06|rim|Take 001|BaseLayer
+  - first:
+      74: 8301467290671570648
+    second: body_03|back_side|Take 001|BaseLayer
+  - first:
+      74: 843285169265367235
+    second: body_03|board_01|Take 001|BaseLayer
+  - first:
+      74: 7273226876204531419
+    second: body_03|board_02|Take 001|BaseLayer
+  - first:
+      74: -2736171013476598499
+    second: body_03|board_03|Take 001|BaseLayer
+  - first:
+      74: -7049488126967462241
+    second: body_03|board_04|Take 001|BaseLayer
+  - first:
+      74: 4736186438633739425
+    second: body_03|board_05|Take 001|BaseLayer
+  - first:
+      74: 3576222446685478661
+    second: body_03|board_06|Take 001|BaseLayer
+  - first:
+      74: 2208257326508145248
+    second: body_03|body_01|Take 001|BaseLayer
+  - first:
+      74: -7681866373976422315
+    second: body_03|body_02|Take 001|BaseLayer
+  - first:
+      74: -4983142068068949016
+    second: body_03|body_03|Take 001|BaseLayer
+  - first:
+      74: -3258240662571323051
+    second: body_03|case|Take 001|BaseLayer
+  - first:
+      74: 7227526022251807884
+    second: body_03|decor_01|Take 001|BaseLayer
+  - first:
+      74: -5859126049695293603
+    second: body_03|decor_02|Take 001|BaseLayer
+  - first:
+      74: -6884860766628089805
+    second: body_03|decor_03|Take 001|BaseLayer
+  - first:
+      74: -6651102744785053160
+    second: body_03|decor_04|Take 001|BaseLayer
+  - first:
+      74: -3306943699730061510
+    second: body_03|decor_05|Take 001|BaseLayer
+  - first:
+      74: 992731459571682393
+    second: body_03|decor_06|Take 001|BaseLayer
+  - first:
+      74: -2760044364106200160
+    second: body_03|decor_07|Take 001|BaseLayer
+  - first:
+      74: -5776519640534776105
+    second: body_03|decor_08|Take 001|BaseLayer
+  - first:
+      74: -1303602268246875669
+    second: body_03|decor_09|Take 001|BaseLayer
+  - first:
+      74: -4379427432821308832
+    second: body_03|doors|Take 001|BaseLayer
+  - first:
+      74: 6167206177270578241
+    second: body_03|frame|Take 001|BaseLayer
+  - first:
+      74: 8553832303411945076
+    second: body_03|front_side|Take 001|BaseLayer
+  - first:
+      74: 5318604009923416910
+    second: body_03|legs|Take 001|BaseLayer
+  - first:
+      74: -4830664338634276368
+    second: body_03|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: -6446397239036244211
+    second: body_03|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: -8655434842270380851
+    second: body_03|rim|Take 001|BaseLayer
+  - first:
+      74: 8938763314479529248
+    second: decor_07|back_side|Take 001|BaseLayer
+  - first:
+      74: -5439146116332808944
+    second: decor_07|board_01|Take 001|BaseLayer
+  - first:
+      74: 2996103712798872137
+    second: decor_07|board_02|Take 001|BaseLayer
+  - first:
+      74: -8972936632166831719
+    second: decor_07|board_03|Take 001|BaseLayer
+  - first:
+      74: 3875901287643844379
+    second: decor_07|board_04|Take 001|BaseLayer
+  - first:
+      74: 7187412974314529275
+    second: decor_07|board_05|Take 001|BaseLayer
+  - first:
+      74: 4731796518339646496
+    second: decor_07|board_06|Take 001|BaseLayer
+  - first:
+      74: 7776539010699167905
+    second: decor_07|body_01|Take 001|BaseLayer
+  - first:
+      74: -6140436164498693380
+    second: decor_07|body_02|Take 001|BaseLayer
+  - first:
+      74: -9140464245762661191
+    second: decor_07|body_03|Take 001|BaseLayer
+  - first:
+      74: 279718462189465554
+    second: decor_07|case|Take 001|BaseLayer
+  - first:
+      74: -1588132448158148564
+    second: decor_07|decor_01|Take 001|BaseLayer
+  - first:
+      74: -6458071960951101494
+    second: decor_07|decor_02|Take 001|BaseLayer
+  - first:
+      74: -3945936607144555258
+    second: decor_07|decor_03|Take 001|BaseLayer
+  - first:
+      74: -1422774964431423997
+    second: decor_07|decor_04|Take 001|BaseLayer
+  - first:
+      74: 966570326526558090
+    second: decor_07|decor_05|Take 001|BaseLayer
+  - first:
+      74: -3808103372165669321
+    second: decor_07|decor_06|Take 001|BaseLayer
+  - first:
+      74: -8747180034730503297
+    second: decor_07|decor_07|Take 001|BaseLayer
+  - first:
+      74: 5523198809387667533
+    second: decor_07|decor_08|Take 001|BaseLayer
+  - first:
+      74: -2128757168349918659
+    second: decor_07|decor_09|Take 001|BaseLayer
+  - first:
+      74: 5968604660155306631
+    second: decor_07|doors|Take 001|BaseLayer
+  - first:
+      74: -2849136112685464598
+    second: decor_07|frame|Take 001|BaseLayer
+  - first:
+      74: 2756496213450341784
+    second: decor_07|front_side|Take 001|BaseLayer
+  - first:
+      74: -5527300629785487713
+    second: decor_07|legs|Take 001|BaseLayer
+  - first:
+      74: 4682911160246829818
+    second: decor_07|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: 330322477994275519
+    second: decor_07|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: -2238559159688753356
+    second: decor_07|rim|Take 001|BaseLayer
+  - first:
+      74: 5617532247706942346
+    second: board_06|back_side|Take 001|BaseLayer
+  - first:
+      74: -8483149463384988836
+    second: board_06|board_01|Take 001|BaseLayer
+  - first:
+      74: 856318978420123274
+    second: board_06|board_02|Take 001|BaseLayer
+  - first:
+      74: -3350218212743351629
+    second: board_06|board_03|Take 001|BaseLayer
+  - first:
+      74: 5795658793522510306
+    second: board_06|board_04|Take 001|BaseLayer
+  - first:
+      74: -8642871146817135304
+    second: board_06|board_05|Take 001|BaseLayer
+  - first:
+      74: -3483629000480400526
+    second: board_06|board_06|Take 001|BaseLayer
+  - first:
+      74: 9023788047653296672
+    second: board_06|body_01|Take 001|BaseLayer
+  - first:
+      74: 1873289345336649126
+    second: board_06|body_02|Take 001|BaseLayer
+  - first:
+      74: -7105676825597341798
+    second: board_06|body_03|Take 001|BaseLayer
+  - first:
+      74: 7309656999324922433
+    second: board_06|case|Take 001|BaseLayer
+  - first:
+      74: 2483602342648610231
+    second: board_06|decor_01|Take 001|BaseLayer
+  - first:
+      74: -2892541589723168984
+    second: board_06|decor_02|Take 001|BaseLayer
+  - first:
+      74: -6437109885990673265
+    second: board_06|decor_03|Take 001|BaseLayer
+  - first:
+      74: -2542224027528288948
+    second: board_06|decor_04|Take 001|BaseLayer
+  - first:
+      74: -4842928374949104138
+    second: board_06|decor_05|Take 001|BaseLayer
+  - first:
+      74: -7938662533598962370
+    second: board_06|decor_06|Take 001|BaseLayer
+  - first:
+      74: -6588716104614174316
+    second: board_06|decor_07|Take 001|BaseLayer
+  - first:
+      74: -2261856001268584939
+    second: board_06|decor_08|Take 001|BaseLayer
+  - first:
+      74: -6734833042336472058
+    second: board_06|decor_09|Take 001|BaseLayer
+  - first:
+      74: -185235990309287473
+    second: board_06|doors|Take 001|BaseLayer
+  - first:
+      74: 6472691251763958048
+    second: board_06|frame|Take 001|BaseLayer
+  - first:
+      74: -4902559462883037955
+    second: board_06|front_side|Take 001|BaseLayer
+  - first:
+      74: -330740196695875428
+    second: board_06|legs|Take 001|BaseLayer
+  - first:
+      74: 2624843951820895867
+    second: board_06|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: 5444805933391551243
+    second: board_06|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: -6881132676832219285
+    second: board_06|rim|Take 001|BaseLayer
+  - first:
+      74: -2934391474672688930
+    second: decor_02|back_side|Take 001|BaseLayer
+  - first:
+      74: -3328595870907207616
+    second: decor_02|board_01|Take 001|BaseLayer
+  - first:
+      74: -6505741706543297965
+    second: decor_02|board_02|Take 001|BaseLayer
+  - first:
+      74: 2656151847662003624
+    second: decor_02|board_03|Take 001|BaseLayer
+  - first:
+      74: 8803535780027880239
+    second: decor_02|board_04|Take 001|BaseLayer
+  - first:
+      74: -9209819182876352791
+    second: decor_02|board_05|Take 001|BaseLayer
+  - first:
+      74: 5024512093139613132
+    second: decor_02|board_06|Take 001|BaseLayer
+  - first:
+      74: 3434611576057511991
+    second: decor_02|body_01|Take 001|BaseLayer
+  - first:
+      74: 2761021990310439971
+    second: decor_02|body_02|Take 001|BaseLayer
+  - first:
+      74: 1322421652692537198
+    second: decor_02|body_03|Take 001|BaseLayer
+  - first:
+      74: -8007277841872207552
+    second: decor_02|case|Take 001|BaseLayer
+  - first:
+      74: 9205751089124469851
+    second: decor_02|decor_01|Take 001|BaseLayer
+  - first:
+      74: -6740663190495297285
+    second: decor_02|decor_02|Take 001|BaseLayer
+  - first:
+      74: 470603060945043548
+    second: decor_02|decor_03|Take 001|BaseLayer
+  - first:
+      74: 6741635212921439460
+    second: decor_02|decor_04|Take 001|BaseLayer
+  - first:
+      74: 3314555738106928769
+    second: decor_02|decor_05|Take 001|BaseLayer
+  - first:
+      74: -5043874462405534932
+    second: decor_02|decor_06|Take 001|BaseLayer
+  - first:
+      74: -514857774776935616
+    second: decor_02|decor_07|Take 001|BaseLayer
+  - first:
+      74: -8910472428461609350
+    second: decor_02|decor_08|Take 001|BaseLayer
+  - first:
+      74: 203624003877940142
+    second: decor_02|decor_09|Take 001|BaseLayer
+  - first:
+      74: -7821500333116230389
+    second: decor_02|doors|Take 001|BaseLayer
+  - first:
+      74: 4424791469471819005
+    second: decor_02|frame|Take 001|BaseLayer
+  - first:
+      74: -7731552892944812641
+    second: decor_02|front_side|Take 001|BaseLayer
+  - first:
+      74: -8669556932579478585
+    second: decor_02|legs|Take 001|BaseLayer
+  - first:
+      74: -5254429960006747687
+    second: decor_02|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: -2972525458700305829
+    second: decor_02|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: 6463149776461287745
+    second: decor_02|rim|Take 001|BaseLayer
+  - first:
+      74: -3296569450180359963
+    second: decor_09|back_side|Take 001|BaseLayer
+  - first:
+      74: 338385814255059235
+    second: decor_09|board_01|Take 001|BaseLayer
+  - first:
+      74: -3947303529751774082
+    second: decor_09|board_02|Take 001|BaseLayer
+  - first:
+      74: -1895601331847670002
+    second: decor_09|board_03|Take 001|BaseLayer
+  - first:
+      74: -3532003553214597931
+    second: decor_09|board_04|Take 001|BaseLayer
+  - first:
+      74: 3352065318429758954
+    second: decor_09|board_05|Take 001|BaseLayer
+  - first:
+      74: -1638034644604897230
+    second: decor_09|board_06|Take 001|BaseLayer
+  - first:
+      74: -1139279010275103339
+    second: decor_09|body_01|Take 001|BaseLayer
+  - first:
+      74: 2046814403843055661
+    second: decor_09|body_02|Take 001|BaseLayer
+  - first:
+      74: 6885320616420800306
+    second: decor_09|body_03|Take 001|BaseLayer
+  - first:
+      74: 1273132980453166604
+    second: decor_09|case|Take 001|BaseLayer
+  - first:
+      74: 6201597769021298426
+    second: decor_09|decor_01|Take 001|BaseLayer
+  - first:
+      74: 6856234500362599945
+    second: decor_09|decor_02|Take 001|BaseLayer
+  - first:
+      74: 551338892412825050
+    second: decor_09|decor_03|Take 001|BaseLayer
+  - first:
+      74: -1074617757769939221
+    second: decor_09|decor_04|Take 001|BaseLayer
+  - first:
+      74: 310609742627032730
+    second: decor_09|decor_05|Take 001|BaseLayer
+  - first:
+      74: 3360542632433951739
+    second: decor_09|decor_06|Take 001|BaseLayer
+  - first:
+      74: -3276239057026145864
+    second: decor_09|decor_07|Take 001|BaseLayer
+  - first:
+      74: 1234488757030700279
+    second: decor_09|decor_08|Take 001|BaseLayer
+  - first:
+      74: -8164182170406707694
+    second: decor_09|decor_09|Take 001|BaseLayer
+  - first:
+      74: -7938344072183921004
+    second: decor_09|doors|Take 001|BaseLayer
+  - first:
+      74: -120506677650236205
+    second: decor_09|frame|Take 001|BaseLayer
+  - first:
+      74: -8579714415180884223
+    second: decor_09|front_side|Take 001|BaseLayer
+  - first:
+      74: -1233565199495177244
+    second: decor_09|legs|Take 001|BaseLayer
+  - first:
+      74: 4311039728933734517
+    second: decor_09|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: -205998632182639775
+    second: decor_09|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: 8147383137589874853
+    second: decor_09|rim|Take 001|BaseLayer
+  - first:
+      74: 8416840273591004534
+    second: decor_03|back_side|Take 001|BaseLayer
+  - first:
+      74: 2089962943682005074
+    second: decor_03|board_01|Take 001|BaseLayer
+  - first:
+      74: -1979841829152912583
+    second: decor_03|board_02|Take 001|BaseLayer
+  - first:
+      74: 6143972463216895770
+    second: decor_03|board_03|Take 001|BaseLayer
+  - first:
+      74: 6501712498935063806
+    second: decor_03|board_04|Take 001|BaseLayer
+  - first:
+      74: -8669328958713559747
+    second: decor_03|board_05|Take 001|BaseLayer
+  - first:
+      74: 925251224899242181
+    second: decor_03|board_06|Take 001|BaseLayer
+  - first:
+      74: -4103663270152611250
+    second: decor_03|body_01|Take 001|BaseLayer
+  - first:
+      74: 3374819302726059726
+    second: decor_03|body_02|Take 001|BaseLayer
+  - first:
+      74: -7180896304247322270
+    second: decor_03|body_03|Take 001|BaseLayer
+  - first:
+      74: -2249117785553660581
+    second: decor_03|case|Take 001|BaseLayer
+  - first:
+      74: -5872133253179318234
+    second: decor_03|decor_01|Take 001|BaseLayer
+  - first:
+      74: -7149336642160463408
+    second: decor_03|decor_02|Take 001|BaseLayer
+  - first:
+      74: -9204947824523669353
+    second: decor_03|decor_03|Take 001|BaseLayer
+  - first:
+      74: -7241489773771234638
+    second: decor_03|decor_04|Take 001|BaseLayer
+  - first:
+      74: -3039583936855030751
+    second: decor_03|decor_05|Take 001|BaseLayer
+  - first:
+      74: -6696248693582309802
+    second: decor_03|decor_06|Take 001|BaseLayer
+  - first:
+      74: 6133493305481871170
+    second: decor_03|decor_07|Take 001|BaseLayer
+  - first:
+      74: 372506457853649771
+    second: decor_03|decor_08|Take 001|BaseLayer
+  - first:
+      74: -3738342020850202295
+    second: decor_03|decor_09|Take 001|BaseLayer
+  - first:
+      74: -5545534044134789913
+    second: decor_03|doors|Take 001|BaseLayer
+  - first:
+      74: -1959704789386294706
+    second: decor_03|frame|Take 001|BaseLayer
+  - first:
+      74: -6324323640002820651
+    second: decor_03|front_side|Take 001|BaseLayer
+  - first:
+      74: -61756637174004621
+    second: decor_03|legs|Take 001|BaseLayer
+  - first:
+      74: 7850966067105141266
+    second: decor_03|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: -2904180677371373801
+    second: decor_03|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: 7505829447528848368
+    second: decor_03|rim|Take 001|BaseLayer
+  - first:
+      74: 3920228512268282943
+    second: body_01|back_side|Take 001|BaseLayer
+  - first:
+      74: -4369916235618116029
+    second: body_01|board_01|Take 001|BaseLayer
+  - first:
+      74: 2997513622830656798
+    second: body_01|board_02|Take 001|BaseLayer
+  - first:
+      74: -3268408556661560766
+    second: body_01|board_03|Take 001|BaseLayer
+  - first:
+      74: -7701058419192089551
+    second: body_01|board_04|Take 001|BaseLayer
+  - first:
+      74: -942725305108918543
+    second: body_01|board_05|Take 001|BaseLayer
+  - first:
+      74: -5903407468076385043
+    second: body_01|board_06|Take 001|BaseLayer
+  - first:
+      74: 4145485464430771655
+    second: body_01|body_01|Take 001|BaseLayer
+  - first:
+      74: 3200725247227973985
+    second: body_01|body_02|Take 001|BaseLayer
+  - first:
+      74: 7287896972168335673
+    second: body_01|body_03|Take 001|BaseLayer
+  - first:
+      74: -3524471438349326309
+    second: body_01|case|Take 001|BaseLayer
+  - first:
+      74: -7135244241803238766
+    second: body_01|decor_01|Take 001|BaseLayer
+  - first:
+      74: 143340585858808120
+    second: body_01|decor_02|Take 001|BaseLayer
+  - first:
+      74: 5290290137258938675
+    second: body_01|decor_03|Take 001|BaseLayer
+  - first:
+      74: -973856429280184715
+    second: body_01|decor_04|Take 001|BaseLayer
+  - first:
+      74: -6337837377419436138
+    second: body_01|decor_05|Take 001|BaseLayer
+  - first:
+      74: 6762886573567557836
+    second: body_01|decor_06|Take 001|BaseLayer
+  - first:
+      74: 3775079140064598806
+    second: body_01|decor_07|Take 001|BaseLayer
+  - first:
+      74: 5942227680526193792
+    second: body_01|decor_08|Take 001|BaseLayer
+  - first:
+      74: 2748466946064787001
+    second: body_01|decor_09|Take 001|BaseLayer
+  - first:
+      74: 8092920308604763360
+    second: body_01|doors|Take 001|BaseLayer
+  - first:
+      74: 8932816973884434956
+    second: body_01|frame|Take 001|BaseLayer
+  - first:
+      74: -8527461262509677085
+    second: body_01|front_side|Take 001|BaseLayer
+  - first:
+      74: -5613715087321681805
+    second: body_01|legs|Take 001|BaseLayer
+  - first:
+      74: 2452656113597703066
+    second: body_01|metal_objects_01|Take 001|BaseLayer
+  - first:
+      74: 1969856567593101929
+    second: body_01|metal_objects_02|Take 001|BaseLayer
+  - first:
+      74: 460150016236865862
+    second: body_01|rim|Take 001|BaseLayer
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
