@@ -33,7 +33,7 @@ public class ClickTheCaptain : MonoBehaviour
 
                 if (hit.transform == objectToClick.transform)
                 {
-                    //  SceneManager.LoadScene("Quiz Minigame");
+                      SceneManager.LoadScene("New Building");
                     Debug.Log("Right object clicked");
 
                 }
