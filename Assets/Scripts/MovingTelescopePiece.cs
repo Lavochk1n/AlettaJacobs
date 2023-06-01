@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MovingTelescopePiece : MonoBehaviour
 {
@@ -163,7 +164,7 @@ public class MovingTelescopePiece : MonoBehaviour
         if (Distance11 < 1 && Distance12 < 1 && Distance13 < 1 && Distance14 < 1 && Distance15 < 1 && Distance16 < 1 && (Distance17 < 1 || Distance172 < 1 || Distance173 < 1) && (Distance182 < 1 || Distance183 < 1 || Distance18 < 1) && (Distance192 < 1 || Distance193 < 1 || Distance19 < 1) && Distance20 < 1)
         {
           
-           // SceneManager.LoadScene("gameRoom3");
+            SceneManager.LoadScene("New Building");
             Debug.Log("Puzzle complete");
         }
         else
@@ -318,7 +319,7 @@ public class MovingTelescopePiece : MonoBehaviour
 
            // if (pieceDropped == false)
          //   {
-                if (_i == 300)
+                if (_i == 30)
                 { 
                     if (pieceToDrop != null)
                     {
@@ -327,10 +328,10 @@ public class MovingTelescopePiece : MonoBehaviour
                         _i = 0;
                     // reset collision or rigidbody
                         rB.isKinematic = true;
-                        rB.detectCollisions = false;
+                    //    rB.detectCollisions = false;
 
                           rB.isKinematic = false;
-                          rB.detectCollisions = true;
+                      //    rB.detectCollisions = true;
 
                 }
                     
@@ -349,11 +350,11 @@ public class MovingTelescopePiece : MonoBehaviour
         {
             if (pieceToDrop != null)
             {
-              //    DropObject(pieceToDrop);
-              //    Debug.Log("Object dropped");
-             
-              
-             }
+                //    DropObject(pieceToDrop);
+                //    Debug.Log("Object dropped");
+                rB.isKinematic = true;
+
+            }
             pieceDropped = false;
             hasHit = false;
             mousePressed = false;
