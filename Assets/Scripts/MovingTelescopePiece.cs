@@ -317,26 +317,32 @@ public class MovingTelescopePiece : MonoBehaviour
                 }
             }
 
-           // if (pieceDropped == false)
-         //   {
-                if (_i == 30)
-                { 
-                    if (pieceToDrop != null)
-                    {
-                        DropObject(pieceToDrop);
-                        Debug.Log("Tried to drop");
-                        _i = 0;
+            // if (pieceDropped == false)
+            //   {
+
+            if (_i == 120)
+            {
+                if (pieceToDrop != null)
+                {
+                    DropObject(pieceToDrop);
+                    Debug.Log("Tried to drop");
+                    _i = 0;
                     // reset collision or rigidbody
-                        rB.isKinematic = true;
+                    rB.isKinematic = true;
                     //    rB.detectCollisions = false;
 
-                          rB.isKinematic = false;
-                      //    rB.detectCollisions = true;
+                    rB.isKinematic = false;
+                    //    rB.detectCollisions = true;
 
                 }
-                    
-                }
+            }
+            else if (_i < 120)
+            {
                 _i += 1;
+            }
+                    
+                
+               
        //         pieceDropped = true;
        //     }
             
@@ -353,6 +359,7 @@ public class MovingTelescopePiece : MonoBehaviour
                 //    DropObject(pieceToDrop);
                 //    Debug.Log("Object dropped");
                 rB.isKinematic = true;
+                _i = 0;
 
             }
             pieceDropped = false;
