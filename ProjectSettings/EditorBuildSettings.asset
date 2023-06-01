@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/Scenes/New Building.unity
     guid: 03163395f3792db4891febfcb3207ec7
   - enabled: 1
-    path: Assets/Scenes/New Building 1.unity
+    path: 
     guid: 9c439fd996b4d5c4d98f17b130c4a855
+  - enabled: 1
+    path: Assets/Scenes/Painting minigame.unity
+    guid: 4935bb95a80767f4e8b10755894b770b
   m_configObjects: {}
