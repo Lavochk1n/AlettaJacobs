@@ -11,6 +11,9 @@ public class MovingTelescopePiece : MonoBehaviour
     public bool pressingE = false;
     public bool mousePressed = false;
     public bool hasHit = false;
+    public bool pieceDropped = false;
+
+    public Rigidbody rB;
     
 
     public GameObject pieceToMove;
@@ -37,6 +40,9 @@ public class MovingTelescopePiece : MonoBehaviour
     public GameObject camera1;
 
     public float dropDistance = 0.1f;
+    public float forwardSpeed = 1f;
+    public float backwardSpeed = 1f;
+    public int _i = 0;
 
 
     public void DropObject(GameObject pieceToMove1)
@@ -47,6 +53,7 @@ public class MovingTelescopePiece : MonoBehaviour
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo1.transform.position;
             pieceToMove1.transform.rotation = pieceToMoveTo1.transform.rotation;
+            pieceToMove1.transform.parent = null;
         }
         float Distance2 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo2.transform.position);
         if (Distance2 < dropDistance)
@@ -54,6 +61,7 @@ public class MovingTelescopePiece : MonoBehaviour
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo2.transform.position;
             pieceToMove1.transform.rotation = pieceToMoveTo2.transform.rotation;
+            pieceToMove1.transform.parent = null;
         }
 
 
@@ -63,6 +71,7 @@ public class MovingTelescopePiece : MonoBehaviour
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo3.transform.position;
             pieceToMove1.transform.rotation = pieceToMoveTo3.transform.rotation;
+            pieceToMove1.transform.parent = null;
         }
 
         float Distance4 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo4.transform.position);
@@ -71,6 +80,7 @@ public class MovingTelescopePiece : MonoBehaviour
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo4.transform.position;
             pieceToMove1.transform.rotation = pieceToMoveTo4.transform.rotation;
+            pieceToMove1.transform.parent = null;
         }
 
 
@@ -80,6 +90,7 @@ public class MovingTelescopePiece : MonoBehaviour
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo5.transform.position;
             pieceToMove1.transform.rotation = pieceToMoveTo5.transform.rotation;
+            pieceToMove1.transform.parent = null;
         }
 
 
@@ -89,6 +100,7 @@ public class MovingTelescopePiece : MonoBehaviour
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo6.transform.position;
             pieceToMove1.transform.rotation = pieceToMoveTo6.transform.rotation;
+            pieceToMove1.transform.parent = null;
         }
 
 
@@ -98,6 +110,7 @@ public class MovingTelescopePiece : MonoBehaviour
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo7.transform.position;
             pieceToMove1.transform.rotation = pieceToMoveTo7.transform.rotation;
+            pieceToMove1.transform.parent = null;
         }
 
 
@@ -107,6 +120,7 @@ public class MovingTelescopePiece : MonoBehaviour
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo8.transform.position;
             pieceToMove1.transform.rotation = pieceToMoveTo8.transform.rotation;
+            pieceToMove1.transform.parent = null;
         }
 
         float Distance9 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo9.transform.position);
@@ -115,6 +129,7 @@ public class MovingTelescopePiece : MonoBehaviour
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo9.transform.position;
             pieceToMove1.transform.rotation = pieceToMoveTo9.transform.rotation;
+            pieceToMove1.transform.parent = null;
         }
 
         float Distance10 = Vector3.Distance(pieceToMove1.transform.position, pieceToMoveTo10.transform.position);
@@ -123,6 +138,7 @@ public class MovingTelescopePiece : MonoBehaviour
             isLocked = false;
             pieceToMove1.transform.position = pieceToMoveTo10.transform.position;
             pieceToMove1.transform.rotation = pieceToMoveTo10.transform.rotation;
+            pieceToMove1.transform.parent = null;
         }
 
         float Distance11 = Vector3.Distance(pieceToMove.transform.position, pieceToMoveTo1.transform.position);
@@ -252,23 +268,93 @@ public class MovingTelescopePiece : MonoBehaviour
                     pieceToDrop = pieceToMove10;
                     hasHit = true;
                 }
-
+               
+                if (pieceToDrop != null)
+                {
+                    rB = pieceToDrop.GetComponent<Rigidbody>();
+                }
+               
 
 
             }
             if (mousePressed == false)
             {
                 mousePressed = true;
-            }           
+            }
+            if (Input.GetKey(KeyCode.Q))
+            {
+                if (rB != null)
+                {
+                    forwardSpeed = 1f;
+                    pieceToDrop.transform.rotation = camera1.transform.rotation;
+                    rB.velocity = transform.forward * forwardSpeed;
+                }
+            }
+            else if (forwardSpeed == 1)
+            {
+                if (rB != null)
+                {
+                    forwardSpeed = 0f;
+                    rB.velocity = transform.forward * forwardSpeed;
+                }
+            }
+            if (Input.GetKey(KeyCode.E))
+            {
+                if (rB != null)
+                {
+                    backwardSpeed = 1f;
+                    pieceToDrop.transform.rotation = camera1.transform.rotation;
+                    rB.velocity = -transform.forward * backwardSpeed;
+                }
+            }
+            else if (backwardSpeed == 1)
+            {
+                if (rB != null)
+                {
+                    backwardSpeed = 0f;
+                    rB.velocity = -transform.forward * backwardSpeed;
+                }
+            }
+
+           // if (pieceDropped == false)
+         //   {
+                if (_i == 300)
+                { 
+                    if (pieceToDrop != null)
+                    {
+                        DropObject(pieceToDrop);
+                        Debug.Log("Tried to drop");
+                        _i = 0;
+                    // reset collision or rigidbody
+                        rB.isKinematic = true;
+                        rB.detectCollisions = false;
+
+                          rB.isKinematic = false;
+                          rB.detectCollisions = true;
+
+                }
+                    
+                }
+                _i += 1;
+       //         pieceDropped = true;
+       //     }
+            
+
+
+
+
+
         }
         else if (mousePressed == true)
         {
             if (pieceToDrop != null)
             {
-                  DropObject(pieceToDrop);
-                  Debug.Log("Object dropped");
+              //    DropObject(pieceToDrop);
+              //    Debug.Log("Object dropped");
+             
               
              }
+            pieceDropped = false;
             hasHit = false;
             mousePressed = false;
         }
