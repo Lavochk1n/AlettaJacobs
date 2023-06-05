@@ -178,7 +178,7 @@ public class MovingTelescopePiece : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.visible = false;
+        
         pieceToDrop = null;
     }
 
@@ -272,7 +272,7 @@ public class MovingTelescopePiece : MonoBehaviour
                
                 if (pieceToDrop != null)
                 {
-                    rB = pieceToDrop.GetComponent<Rigidbody>();
+               //     rB = pieceToDrop.GetComponent<Rigidbody>();
                 }
                
 
@@ -328,10 +328,10 @@ public class MovingTelescopePiece : MonoBehaviour
                
                 //    _i = 0;
                     // reset collision or rigidbody
-                    rB.isKinematic = true;
+                 //   rB.isKinematic = true;
                     //    rB.detectCollisions = false;
 
-                    rB.isKinematic = false;
+                 //   rB.isKinematic = false;
                     //    rB.detectCollisions = true;
 
                 }
@@ -358,7 +358,7 @@ public class MovingTelescopePiece : MonoBehaviour
             {
                 //    DropObject(pieceToDrop);
                 //    Debug.Log("Object dropped");
-                rB.isKinematic = true;
+             //   rB.isKinematic = true;
                 _i = 0;
 
             }

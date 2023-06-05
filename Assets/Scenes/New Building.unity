@@ -755,27 +755,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.077255696, y: 0.019999998, z: 0.029467886}
   m_Center: {x: 0.02862785, y: 3.7028937e-19, z: 0.0017788104}
---- !u!1 &81914153 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5541044915389342259, guid: 458317ffea20dca48a542b37a8ea6992, type: 3}
-  m_PrefabInstance: {fileID: 645572558}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &81914157
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 81914153}
-  serializedVersion: 2
-  m_Mass: 0.5
-  m_Drag: 0
-  m_AngularDrag: 0.5
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &108662962
 GameObject:
   m_ObjectHideFlags: 0
@@ -11099,6 +11078,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4364013949622838761, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4741550271421118914, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -11155,9 +11138,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5042323564837858133, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5488295838913837607, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7067658254958907715, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7390719318806925293, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
       propertyPath: m_Name
       value: Telescope minigame
+      objectReference: {fileID: 0}
+    - target: {fileID: 7764466766869803422, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7908145106199674285, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633554837286316014, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8689375899649525554, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8689375899649525555, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
       propertyPath: camera1
@@ -11167,7 +11178,25 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8708923088765953324, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864202880583813150, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8689375899649525554, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+    - {fileID: 5488295838913837607, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+    - {fileID: 7067658254958907715, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+    - {fileID: 8633554837286316014, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+    - {fileID: 7908145106199674285, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+    - {fileID: 8708923088765953324, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+    - {fileID: 8864202880583813150, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+    - {fileID: 7764466766869803422, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+    - {fileID: 4364013949622838761, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
+    - {fileID: 5042323564837858133, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7cb5509dd1e738d48a750fb6eea6960f, type: 3}
 --- !u!1 &766350203
 GameObject:
