@@ -9,10 +9,12 @@ public class playerMovement : MonoBehaviour
     public float speed = 13f;
     public float gravity = -9.81f;
     public float stairStepHeight = 0.2f;
+    public int _i = 0;
 
     private bool isOnStairs = false;
     private Vector3 moveDirection;
     public Vector3 positionToSet;
+   // public bool setPos = false;
 
 
     void Start()
@@ -36,12 +38,45 @@ public class playerMovement : MonoBehaviour
         {
             HandleRegularMovement();
         }
+
+        if (buttonscript.setPos2 == true)
+        {
+            positionToSet = new Vector3(300.5f, 48f, -409.5f);
+            Debug.Log("Variable has been set to coordinates");
+            transform.position = positionToSet;
+         
+
+
+            if (_i == 2)
+            {
+                transform.Rotate(0f, -90f, 0f, Space.World);
+                if (transform.position == positionToSet)
+                {
+                   
+                    buttonscript.setPos2 = false;
+                    Debug.Log("Position has been set to variable succesfully");
+                }
+            }
+            if (_i <= 2)
+            {
+            _i++;
+            }
+            else
+            {
+               _i = 0;
+            }
+
+            
+        }
+
     }
 
     //public void SetPos2()
     //{
     //    positionToSet = new Vector3(300.5f, 48f, -409.5f);
-    //    Debug.Log("Variable has been set to coordinates");
+    //    Debug.Log("Variable has been set to coordinates"); 
+    //    setPos= true;
+        
     //}
 
     void HandleRegularMovement()

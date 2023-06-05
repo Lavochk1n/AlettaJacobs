@@ -6,7 +6,11 @@ using UnityEngine.SceneManagement;
 public class buttonscript : MonoBehaviour
 {
 
-   // public GameObject playerMovement1;
+    public GameObject playerMovement1 = null;
+
+    public static bool setPos2 = false;
+
+    public Scene scene;
 
 
     public void NextScene()
@@ -36,8 +40,9 @@ public class buttonscript : MonoBehaviour
 
     public void ToGame2()
     {
-       // playerMovement1.GetComponent<playerMovement>().SetPos2();
+        
         SceneManager.LoadScene("New Building");
+        setPos2 = true;
         
     }
 
@@ -50,9 +55,23 @@ public class buttonscript : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-      //  playerMovement1 = GameObject.Find("something");
+        Scene scene = SceneManager.GetActiveScene();
     }
 
+    void Update()
+    {
+        
+        //if (setPos2 == true)  // scene.name == "New Building" && 
+        //{
+        //    playerMovement1 = GameObject.Find("Player");
+        //    if (playerMovement1 != null )
+        //    {
+        //    playerMovement1.GetComponent<playerMovement>().SetPos2();
+        //    setPos2 = false;
+
+        //    }
+        //}
+    }
 
 
 

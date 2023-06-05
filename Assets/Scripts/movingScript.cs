@@ -839,10 +839,13 @@ public class movingScript : MonoBehaviour
         if (rightAnswer == true)
         {
             SceneManager.LoadScene("New Building");
+            buttonscript.setPos2 = true;
+           
         }
         else
         {
-            SceneManager.LoadScene("New Building");
+           SceneManager.LoadScene("New Building");
+           buttonscript.setPos2 = true;
 
         }
     }
