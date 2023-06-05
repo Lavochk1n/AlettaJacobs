@@ -10,13 +10,19 @@ public class Createinteractionpopup1 : MonoBehaviour
     public GameObject textInstance;
     public Transform textPos;
     public bool triggerStay;
+    public static bool startMinigame = true;
 
 
     private void OnTriggerEnter(Collider other)
     {
-        Instantiate(interactionText, textPos.position, textPos.rotation, textPos.transform);
-        textInstance = GameObject.Find("InteractionText 1(Clone)");
-        triggerStay = true;
+        if (startMinigame)
+        {
+
+
+            Instantiate(interactionText, textPos.position, textPos.rotation, textPos.transform);
+            textInstance = GameObject.Find("InteractionText 1(Clone)");
+            triggerStay = true;
+        }
     }
 
     //  void OnTriggerStay(Collider other)
@@ -37,20 +43,30 @@ public class Createinteractionpopup1 : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (startMinigame)
         {
-            if (triggerStay == true)
+
+
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                SceneManager.LoadScene("Conversation2");
-                Debug.Log("space was pressed");
+                if (triggerStay == true)
+                {
+                    SceneManager.LoadScene("Conversation2");
+                    Debug.Log("space was pressed");
+                }
             }
         }
     }
 
     void OnTriggerExit(Collider other)
     {
-        Destroy(textInstance);
-        triggerStay = false;
+        if (startMinigame)
+        {
+
+
+            Destroy(textInstance);
+            triggerStay = false;
+        }
     }
 
 

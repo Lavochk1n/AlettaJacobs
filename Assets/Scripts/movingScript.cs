@@ -840,12 +840,15 @@ public class movingScript : MonoBehaviour
         {
             SceneManager.LoadScene("New Building");
             buttonscript.setPos2 = true;
-           
+            Feedbacktext.fRight = true;
+            Createinteractionpopup1.startMinigame = false;
+
         }
         else
         {
            SceneManager.LoadScene("New Building");
            buttonscript.setPos2 = true;
+           Feedbacktext.fWrong = true;
 
         }
     }

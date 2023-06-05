@@ -43,7 +43,8 @@ public class buttonscript : MonoBehaviour
         
         SceneManager.LoadScene("New Building");
         setPos2 = true;
-        
+     //   Feedbacktext.fDefault = true;
+
     }
 
     public void ToGame3()
