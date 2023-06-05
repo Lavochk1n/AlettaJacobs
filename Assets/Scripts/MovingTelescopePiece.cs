@@ -163,14 +163,14 @@ public class MovingTelescopePiece : MonoBehaviour
         float Distance20 = Vector3.Distance(pieceToMove10.transform.position, pieceToMoveTo10.transform.position);
         if (Distance11 < 1 && Distance12 < 1 && Distance13 < 1 && Distance14 < 1 && Distance15 < 1 && Distance16 < 1 && (Distance17 < 1 || Distance172 < 1 || Distance173 < 1) && (Distance182 < 1 || Distance183 < 1 || Distance18 < 1) && (Distance192 < 1 || Distance193 < 1 || Distance19 < 1) && Distance20 < 1)
         {
-          
-            SceneManager.LoadScene("New Building");
+
+            Feedbacktext.fRight1 = true;
             Debug.Log("Puzzle complete");
         }
         else
         {
            // SceneManager.LoadScene("gameRoom2");
-            Debug.Log("Puzzle not complete");
+            
         }
 
     }
@@ -178,7 +178,7 @@ public class MovingTelescopePiece : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.visible = true;
+        Cursor.visible = false;
         pieceToDrop = null;
     }
 
@@ -282,40 +282,40 @@ public class MovingTelescopePiece : MonoBehaviour
             {
                 mousePressed = true;
             }
-            if (Input.GetKey(KeyCode.Q))
-            {
-                if (rB != null)
-                {
-                    forwardSpeed = 1f;
-                    pieceToDrop.transform.rotation = camera1.transform.rotation;
-                    rB.velocity = transform.forward * forwardSpeed;
-                }
-            }
-            else if (forwardSpeed == 1)
-            {
-                if (rB != null)
-                {
-                    forwardSpeed = 0f;
-                    rB.velocity = transform.forward * forwardSpeed;
-                }
-            }
-            if (Input.GetKey(KeyCode.E))
-            {
-                if (rB != null)
-                {
-                    backwardSpeed = 1f;
-                    pieceToDrop.transform.rotation = camera1.transform.rotation;
-                    rB.velocity = -transform.forward * backwardSpeed;
-                }
-            }
-            else if (backwardSpeed == 1)
-            {
-                if (rB != null)
-                {
-                    backwardSpeed = 0f;
-                    rB.velocity = -transform.forward * backwardSpeed;
-                }
-            }
+            //if (Input.GetKey(KeyCode.Q))
+            //{
+            //    if (rB != null)
+            //    {
+            //        forwardSpeed = 1f;
+            //        pieceToDrop.transform.rotation = camera1.transform.rotation;
+            //        rB.velocity = transform.forward * forwardSpeed;
+            //    }
+            //}
+            //else if (forwardSpeed == 1)
+            //{
+            //    if (rB != null)
+            //    {
+            //        forwardSpeed = 0f;
+            //        rB.velocity = transform.forward * forwardSpeed;
+            //    }
+            //}
+            //if (Input.GetKey(KeyCode.E))
+            //{
+            //    if (rB != null)
+            //    {
+            //        backwardSpeed = 1f;
+            //        pieceToDrop.transform.rotation = camera1.transform.rotation;
+            //        rB.velocity = -transform.forward * backwardSpeed;
+            //    }
+            //}
+            //else if (backwardSpeed == 1)
+            //{
+            //    if (rB != null)
+            //    {
+            //        backwardSpeed = 0f;
+            //        rB.velocity = -transform.forward * backwardSpeed;
+            //    }
+            //}
 
             // if (pieceDropped == false)
             //   {
@@ -325,8 +325,8 @@ public class MovingTelescopePiece : MonoBehaviour
                 if (pieceToDrop != null)
                 {
                     DropObject(pieceToDrop);
-                    Debug.Log("Tried to drop");
-                    _i = 0;
+               
+                //    _i = 0;
                     // reset collision or rigidbody
                     rB.isKinematic = true;
                     //    rB.detectCollisions = false;
