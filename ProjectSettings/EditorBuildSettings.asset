@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/gameRoom1.unity
-    guid: dc24dc5b0a8f42c44a82382c747e0976
+    path: Assets/Scenes/Menu.unity
+    guid: 140b238231834a84f9f1ea9086d62424
+  - enabled: 1
+    path: Assets/Scenes/Controls.unity
+    guid: e724725abbf5c5b48a9f9428d331608f
+  - enabled: 1
+    path: Assets/Scenes/New Building.unity
+    guid: 03163395f3792db4891febfcb3207ec7
   - enabled: 1
     path: Assets/Scenes/Conversation1.unity
     guid: 351cd636c74b3eb48b24a9508f687af7
@@ -21,27 +27,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Whatshould.unity
     guid: f9ed31bb4460072408806cd87f10ae8f
   - enabled: 1
-    path: Assets/Scenes/gameRoom3.unity
-    guid: 22cfa3b0fcff75349a6c61c31aa36974
-  - enabled: 1
-    path: Assets/Scenes/gameRoom2.unity
-    guid: 2ed3e2b6de5f35b4699fd08f0daf3a87
-  - enabled: 1
-    path: Assets/Scenes/Conversation22.unity
-    guid: 756c35c49ea275840a9db2c84a1cbdbe
-  - enabled: 1
     path: Assets/Scenes/Conversation2.unity
     guid: a5694427daa867c4fb0907c246a07ce7
   - enabled: 1
-    path: Assets/Scenes/TelescopeMinigame.unity
-    guid: d114f233289d6f24bb8cbb8416dc4b7d
-  - enabled: 1
-    path: Assets/Scenes/New Building.unity
-    guid: 03163395f3792db4891febfcb3207ec7
-  - enabled: 1
-    path: 
-    guid: 9c439fd996b4d5c4d98f17b130c4a855
-  - enabled: 1
     path: Assets/Scenes/Painting minigame.unity
     guid: 4935bb95a80767f4e8b10755894b770b
+  - enabled: 0
+    path: Assets/Scenes/not using/gameRoom3.unity
+    guid: 22cfa3b0fcff75349a6c61c31aa36974
+  - enabled: 0
+    path: Assets/Scenes/not using/gameRoom1.unity
+    guid: dc24dc5b0a8f42c44a82382c747e0976
+  - enabled: 0
+    path: Assets/Scenes/not using/gameRoom2.unity
+    guid: 2ed3e2b6de5f35b4699fd08f0daf3a87
+  - enabled: 0
+    path: Assets/Scenes/not using/Conversation22.unity
+    guid: 756c35c49ea275840a9db2c84a1cbdbe
+  - enabled: 0
+    path: Assets/Scenes/TelescopeMinigame.unity
+    guid: d114f233289d6f24bb8cbb8416dc4b7d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

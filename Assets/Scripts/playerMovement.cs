@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerMovement : MonoBehaviour
 {
@@ -54,8 +55,13 @@ public class playerMovement : MonoBehaviour
         moveDirection.y += gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
 
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu");
+        }
 
-        if (buttonscript.setPos2 == true)
+
+            if (buttonscript.setPos2 == true)
         {
             positionToSet = new Vector3(300.5f, 48f, -409.5f);
             Debug.Log("Variable has been set to coordinates");

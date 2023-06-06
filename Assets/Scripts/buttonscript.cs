@@ -18,6 +18,21 @@ public class buttonscript : MonoBehaviour
         SceneManager.LoadScene("whathappened");
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void ToControls()
+    {
+        SceneManager.LoadScene("Controls");
+    }
+
+    public void ToMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
     public void ToConvo()
     {
         SceneManager.LoadScene("Conversation1");
@@ -61,7 +76,7 @@ public class buttonscript : MonoBehaviour
 
     void Update()
     {
-        
+
         //if (setPos2 == true)  // scene.name == "New Building" && 
         //{
         //    playerMovement1 = GameObject.Find("Player");
@@ -72,6 +87,10 @@ public class buttonscript : MonoBehaviour
 
         //    }
         //}
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu");
+        }
     }
 
 
