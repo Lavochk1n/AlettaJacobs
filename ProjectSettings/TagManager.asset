@@ -6,6 +6,7 @@ TagManager:
   tags:
   - drag
   - Stairs
+  - InfoBoard
   layers:
   - Default
   - TransparentFX
