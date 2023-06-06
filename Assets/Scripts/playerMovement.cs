@@ -91,6 +91,36 @@ public class playerMovement : MonoBehaviour
             
         }
 
+        if (ClickTheCaptain.setPos3 == true)
+        {
+            positionToSet = new Vector3(290f, 62f, -456f);
+            Debug.Log("Variable has been set to coordinates");
+            transform.position = positionToSet;
+
+
+
+            if (_i == 2)
+            {
+                transform.Rotate(0f, -90f, 0f, Space.World);
+                if (transform.position == positionToSet)
+                {
+
+                    ClickTheCaptain.setPos3 = false;
+                    Debug.Log("Position has been set to variable succesfully");
+                }
+            }
+            if (_i <= 2)
+            {
+                _i++;
+            }
+            else
+            {
+                _i = 0;
+            }
+
+
+        }
+
 
 
     }

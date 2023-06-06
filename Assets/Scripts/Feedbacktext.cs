@@ -7,18 +7,28 @@ public class Feedbacktext : MonoBehaviour
 
     public static bool fDefault = true;
     public static bool fDefault1 = true;
+    public static bool fDefault2 = true;
     public static bool fRight = false;
     public static bool fRight1 = false;
+    public static bool fRight2 = false;
     public static bool fWrong = false;
+    public static bool inscaptain = false;
 
 
 
     public GameObject interactionText;
     public GameObject interactionText1;
     public GameObject interactionText2;
+    public GameObject interactionText3;
+    public GameObject interactionText4;
+    public GameObject interactionText5;
     public GameObject interactionTextTel;
+    public GameObject captain;
+
     public Transform textPos;
     public Transform textPos1;
+    public Transform textPos2;
+    public Transform captainPos;
 
     
 
@@ -27,6 +37,12 @@ public class Feedbacktext : MonoBehaviour
     {
         fDefault = true;
         fDefault1 = true;
+        fDefault2 = true;
+        if (inscaptain)
+        {
+            Instantiate(captain, captainPos.position, captainPos.rotation, captainPos.transform);
+          //  inscaptain = false;
+        }
 
     }
 
@@ -68,7 +84,7 @@ public class Feedbacktext : MonoBehaviour
         }
         if (fRight1)
         {
-            Instantiate(interactionText1, textPos1.position, textPos1.rotation, textPos1.transform);
+            Instantiate(interactionText5, textPos1.position, textPos1.rotation, textPos1.transform);
             if (GameObject.Find("InteractionText 6(Clone)") != null)
             {
                 Destroy(GameObject.Find("InteractionText 6(Clone)"));
@@ -76,7 +92,24 @@ public class Feedbacktext : MonoBehaviour
             fRight1 = false;
 
         }
-        
+
+
+        if (fDefault2)
+        {
+            Instantiate(interactionText3, textPos2.position, textPos2.rotation, textPos2.transform);
+            fDefault2 = false;
+        }
+        if (fRight2)
+        {
+            Instantiate(interactionText4, textPos2.position, textPos2.rotation, textPos2.transform);
+            if (GameObject.Find("InteractionText 7(Clone)") != null)
+            {
+                Destroy(GameObject.Find("InteractionText 7(Clone)"));
+            }
+            fRight2 = false;
+
+        }
+
 
 
     }

@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class Createinteractionpopup3 : MonoBehaviour
 {
 
+    public static bool startMinigame = true;
+
     public GameObject interactionText;
     public GameObject textInstance;
     public Transform textPos;
@@ -38,12 +40,17 @@ public class Createinteractionpopup3 : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (startMinigame)
         {
-            if (triggerStay1 == true)
+
+
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                SceneManager.LoadScene("Painting minigame");
-                Debug.Log("space was pressed");
+                if (triggerStay1 == true)
+                {
+                    SceneManager.LoadScene("Painting minigame");
+                    Debug.Log("space was pressed");
+                }
             }
         }
     }

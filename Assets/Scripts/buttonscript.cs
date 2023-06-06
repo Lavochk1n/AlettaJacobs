@@ -41,6 +41,7 @@ public class buttonscript : MonoBehaviour
     public void ToGame()
     {
         SceneManager.LoadScene("New Building");
+        Createinteractionpopup1.startMinigame = true;
     }
 
     public void ToWho()

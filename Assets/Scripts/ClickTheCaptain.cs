@@ -9,6 +9,7 @@ public class ClickTheCaptain : MonoBehaviour
 
     public GameObject camera1;
     public GameObject objectToClick;
+    public static bool setPos3 = false;
 
     // Start is called before the first frame update
     void Start()
@@ -33,8 +34,14 @@ public class ClickTheCaptain : MonoBehaviour
 
                 if (hit.transform == objectToClick.transform)
                 {
-                      SceneManager.LoadScene("New Building");
+                     Feedbacktext.inscaptain = true;
+                    SceneManager.LoadScene("New Building");
                     Debug.Log("Right object clicked");
+                    setPos3 = true;
+                    Createinteractionpopup3.startMinigame = false;
+                    Feedbacktext.fRight2 = true;
+
+
 
                 }
                 else
