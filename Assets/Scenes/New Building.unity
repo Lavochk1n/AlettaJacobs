@@ -1772,7 +1772,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6ae6e02b61582b94cabda9af4e50e01e, type: 2}
+  - {fileID: 2100000, guid: f2fe5b4d3720e7643b80a2e503862440, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1809,14 +1809,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226040036}
-  m_LocalRotation: {x: -0.5252034, y: -0.51229054, z: -0.47312355, w: -0.48772317}
-  m_LocalPosition: {x: -0.012, y: -0.000042432155, z: -0.0003}
+  m_LocalRotation: {x: 0.47906893, y: -0.4900788, z: -0.5089945, w: 0.5208074}
+  m_LocalPosition: {x: -0.017999934, y: -0.000042432155, z: -0.0004999709}
   m_LocalScale: {x: 0.017880447, y: 0.016472073, z: 0.0025590546}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1216609627}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 33.302, y: -1.889, z: -1.074}
+  m_LocalEulerAnglesHint: {x: 0.006, y: 273.476, z: -88.692}
 --- !u!1 &247809524
 GameObject:
   m_ObjectHideFlags: 0
@@ -27944,7 +27944,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageQuadUI: {fileID: 739599145}
-  quadShwoing: 0
 --- !u!1 &1546728784
 GameObject:
   m_ObjectHideFlags: 0
@@ -29026,7 +29025,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6ae6e02b61582b94cabda9af4e50e01e, type: 2}
+  - {fileID: 2100000, guid: e42aa53981d7f3543831c8615366c419, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29063,14 +29062,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1669626972}
-  m_LocalRotation: {x: -0.5252034, y: -0.51229054, z: -0.47312355, w: -0.48772317}
-  m_LocalPosition: {x: -0.0045273183, y: -0.00028216295, z: -0.000013935344}
+  m_LocalRotation: {x: -0.5615865, y: 0.54552865, z: -0.44257653, w: 0.43720156}
+  m_LocalPosition: {x: -0.01499924, y: -0.000110065106, z: -0.00049998297}
   m_LocalScale: {x: 0.017880447, y: 0.016472073, z: 0.0025590546}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2026252947}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 33.302, y: -1.889, z: -1.074}
+  m_LocalEulerAnglesHint: {x: -0.468, y: 463.06, z: -91.29}
 --- !u!1 &1671118304
 GameObject:
   m_ObjectHideFlags: 0
@@ -42033,7 +42032,7 @@ GameObject:
   - component: {fileID: 2026252951}
   m_Layer: 0
   m_Name: Info Screen
-  m_TagString: Untagged
+  m_TagString: InfoBoard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
