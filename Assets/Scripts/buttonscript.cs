@@ -33,6 +33,41 @@ public class buttonscript : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
 
+    public void ToWrongQuestion()
+    {
+        SceneManager.LoadScene("WrongAnswer");
+    }
+
+    public void ToFirstQuestion()
+    {
+        SceneManager.LoadScene("FirstQuestion");
+    }
+
+    public void ToSecondQuestion()
+    {
+        SceneManager.LoadScene("SecondQuestion");
+    }
+
+    public void ToThirdQuestion()
+    {
+        SceneManager.LoadScene("ThirdQuestion");
+    }
+
+    public void ToFourthQuestion()
+    {
+        SceneManager.LoadScene("FourthQuestion");
+    }
+
+    public void ToFifthQuestion()
+    {
+        SceneManager.LoadScene("FifthQuestion");
+    }
+   
+     public void ToSixthQuestion()
+    {
+        SceneManager.LoadScene("SixthQuestion");
+    }
+
     public void ToConvo()
     {
         SceneManager.LoadScene("Conversation1");

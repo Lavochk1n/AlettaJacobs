@@ -50,4 +50,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/FirstQuestion.unity
+    guid: e9fb1e6d7f59b1b4694617fc603b3c61
+  - enabled: 1
+    path: Assets/Scenes/SecondQuestion.unity
+    guid: de3610ec8a38f2d4db9d40f8813a0cf8
+  - enabled: 1
+    path: Assets/Scenes/WrongAnswer.unity
+    guid: c6f0c15de8bce844086adbf47cf46810
   m_configObjects: {}
