@@ -10,12 +10,15 @@ public class Feedbacktext : MonoBehaviour
     public static bool fRight = false;
     public static bool fRight1 = false;
     public static bool fWrong = false;
+    public static int lastInst = 0;
+    public static int lastInst1 = 0;
 
 
 
     public GameObject interactionText;
     public GameObject interactionText1;
     public GameObject interactionText2;
+    public GameObject interactionText3;
     public GameObject interactionTextTel;
     public Transform textPos;
     public Transform textPos1;
@@ -25,8 +28,24 @@ public class Feedbacktext : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        fDefault = true;
-        fDefault1 = true;
+        if (lastInst == 0)
+        {
+            fDefault = true;
+        }
+
+        if (lastInst == 1)
+        {
+            fRight= true;
+        }
+        if (lastInst == 2)
+        {
+            fWrong = true;
+        }
+        if (lastInst1 == 3)
+        {
+            fRight1 = true;
+        }
+        
 
     }
 
@@ -38,6 +57,7 @@ public class Feedbacktext : MonoBehaviour
         {
             Instantiate(interactionText, textPos.position, textPos.rotation, textPos.transform);
             fDefault = false;
+            lastInst = 0;
         }
         if (fRight)
         {
@@ -47,6 +67,7 @@ public class Feedbacktext : MonoBehaviour
                 Destroy(GameObject.Find("InteractionText 3(Clone)"));
             }
             fRight = false;
+            lastInst= 1;
             
         }
         if (fWrong)
@@ -58,6 +79,7 @@ public class Feedbacktext : MonoBehaviour
                 Destroy(GameObject.Find("InteractionText 3(Clone)"));
             }
             fWrong= false;
+            lastInst = 2;
         }
 
 
@@ -68,12 +90,13 @@ public class Feedbacktext : MonoBehaviour
         }
         if (fRight1)
         {
-            Instantiate(interactionText1, textPos1.position, textPos1.rotation, textPos1.transform);
+            Instantiate(interactionText3, textPos1.position, textPos1.rotation, textPos1.transform);
             if (GameObject.Find("InteractionText 6(Clone)") != null)
             {
                 Destroy(GameObject.Find("InteractionText 6(Clone)"));
             }
             fRight1 = false;
+            lastInst1 = 3;
 
         }
         

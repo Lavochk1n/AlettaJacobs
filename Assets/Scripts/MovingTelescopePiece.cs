@@ -163,8 +163,10 @@ public class MovingTelescopePiece : MonoBehaviour
         float Distance20 = Vector3.Distance(pieceToMove10.transform.position, pieceToMoveTo10.transform.position);
         if (Distance11 < 1 && Distance12 < 1 && Distance13 < 1 && Distance14 < 1 && Distance15 < 1 && Distance16 < 1 && (Distance17 < 1 || Distance172 < 1 || Distance173 < 1) && (Distance182 < 1 || Distance183 < 1 || Distance18 < 1) && (Distance192 < 1 || Distance193 < 1 || Distance19 < 1) && Distance20 < 1)
         {
-
+            SceneManager.LoadScene("New Building");
             Feedbacktext.fRight1 = true;
+            playerMovement.setPos4 = true;
+            Createinteractionpopup4.c4 = false;
             Debug.Log("Puzzle complete");
         }
         else
@@ -272,7 +274,7 @@ public class MovingTelescopePiece : MonoBehaviour
                
                 if (pieceToDrop != null)
                 {
-               //     rB = pieceToDrop.GetComponent<Rigidbody>();
+                    rB = pieceToDrop.GetComponent<Rigidbody>();
                 }
                
 
@@ -331,7 +333,7 @@ public class MovingTelescopePiece : MonoBehaviour
                  //   rB.isKinematic = true;
                     //    rB.detectCollisions = false;
 
-                 //   rB.isKinematic = false;
+                    //rB.isKinematic = false;
                     //    rB.detectCollisions = true;
 
                 }
@@ -340,12 +342,12 @@ public class MovingTelescopePiece : MonoBehaviour
             {
                 _i += 1;
             }
-                    
-                
-               
-       //         pieceDropped = true;
-       //     }
-            
+
+
+
+            //         pieceDropped = true;
+            //     }
+
 
 
 

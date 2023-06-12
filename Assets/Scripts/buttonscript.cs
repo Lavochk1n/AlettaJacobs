@@ -68,6 +68,19 @@ public class buttonscript : MonoBehaviour
         SceneManager.LoadScene("SixthQuestion");
     }
 
+    public void ToFinishScreen()
+    {
+        SceneManager.LoadScene("EndScreen");
+    }
+
+    public void FromFinishScreen()
+    {
+        SceneManager.LoadScene("New Building");
+        playerMovement.setPos5 = true;
+        Createinteractionpopup3.fRight = true;
+        Createinteractionpopup3.lastInst = 1;
+    }
+
     public void ToConvo()
     {
         SceneManager.LoadScene("Conversation1");

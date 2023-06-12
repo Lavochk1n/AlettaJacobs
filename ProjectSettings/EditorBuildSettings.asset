@@ -44,7 +44,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/not using/Conversation22.unity
     guid: 756c35c49ea275840a9db2c84a1cbdbe
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/TelescopeMinigame.unity
     guid: d114f233289d6f24bb8cbb8416dc4b7d
   - enabled: 0
@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SixthQuestion.unity
     guid: 078caafea58cff34bb4097cfa1c95f6a
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: 5d1abacb32e39834f90006966d13ae22
   m_configObjects: {}
