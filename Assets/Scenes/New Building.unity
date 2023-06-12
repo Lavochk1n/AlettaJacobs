@@ -35097,7 +35097,7 @@ GameObject:
   - component: {fileID: 1460966327}
   - component: {fileID: 1460966326}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: World Map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37823,11 +37823,27 @@ PrefabInstance:
     - target: {fileID: -4683669308469848369, guid: cb7b1cb9e836d3242a50e017c94d92ae, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: fe522d7b1289c4345b686fc29ee51adf, type: 2}
+      objectReference: {fileID: 2100000, guid: 84a1ffeca40e4c6439b0a1f93b4d287c, type: 2}
+    - target: {fileID: -2577548232221058511, guid: cb7b1cb9e836d3242a50e017c94d92ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: -2484921068739079471, guid: cb7b1cb9e836d3242a50e017c94d92ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: -2484921068739079471, guid: cb7b1cb9e836d3242a50e017c94d92ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -2484921068739079471, guid: cb7b1cb9e836d3242a50e017c94d92ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.19
+      objectReference: {fileID: 0}
     - target: {fileID: -804731622281664130, guid: cb7b1cb9e836d3242a50e017c94d92ae, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: fe522d7b1289c4345b686fc29ee51adf, type: 2}
+      objectReference: {fileID: 2100000, guid: 84a1ffeca40e4c6439b0a1f93b4d287c, type: 2}
     - target: {fileID: 919132149155446097, guid: cb7b1cb9e836d3242a50e017c94d92ae, type: 3}
       propertyPath: m_Name
       value: Dutch east india company logo
