@@ -167,6 +167,7 @@ public class MovingTelescopePiece : MonoBehaviour
             Feedbacktext.fRight1 = true;
             playerMovement.setPos4 = true;
             Createinteractionpopup4.c4 = false;
+            UI.check2 = true;
             Debug.Log("Puzzle complete");
         }
         else

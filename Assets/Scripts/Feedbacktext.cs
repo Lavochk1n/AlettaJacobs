@@ -45,6 +45,11 @@ public class Feedbacktext : MonoBehaviour
         {
             fRight1 = true;
         }
+        else
+        {
+            fDefault1= true;
+        }
+
         
 
     }

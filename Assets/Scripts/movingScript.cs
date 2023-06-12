@@ -41,8 +41,13 @@ public class movingScript : MonoBehaviour
     Vector2 objectInitPos8;
     Vector2 objectInitPos9;
 
+
+
+
+
     void Start()
     {
+     
         objectInitPos = pieceToMove.transform.position;
         objectInitPos2 = pieceToMove2.transform.position;
         objectInitPos3 = pieceToMove3.transform.position;
@@ -52,6 +57,7 @@ public class movingScript : MonoBehaviour
         objectInitPos7 = pieceToMove7.transform.position;
         objectInitPos8 = pieceToMove8.transform.position;
         objectInitPos9 = pieceToMove9.transform.position;
+        Cursor.visible = true;
     }
 
     void Update()
@@ -64,6 +70,12 @@ public class movingScript : MonoBehaviour
         if (!isLocked)
         {
             pieceToMove.transform.position = Input.mousePosition;
+
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                pieceToMove.transform.Rotate(0.0f, 0.0f, 90.0f, Space.World);
+                Debug.Log("R pressed");
+            }
         }
     }
 
@@ -72,6 +84,11 @@ public class movingScript : MonoBehaviour
         if (!isLocked)
         {
             pieceToMove2.transform.position = Input.mousePosition;
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                pieceToMove2.transform.Rotate(0.0f, 0.0f, 90.0f, Space.World);
+                Debug.Log("R pressed");
+            }
         }
     }
 
@@ -80,6 +97,11 @@ public class movingScript : MonoBehaviour
         if (!isLocked)
         {
             pieceToMove3.transform.position = Input.mousePosition;
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                pieceToMove3.transform.Rotate(0.0f, 0.0f, 90.0f, Space.World);
+                Debug.Log("R pressed");
+            }
         }
     }
 
@@ -88,6 +110,11 @@ public class movingScript : MonoBehaviour
         if (!isLocked)
         {
             pieceToMove4.transform.position = Input.mousePosition;
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                pieceToMove4.transform.Rotate(0.0f, 0.0f, 90.0f, Space.World);
+                Debug.Log("R pressed");
+            }
         }
     }
 
@@ -96,6 +123,11 @@ public class movingScript : MonoBehaviour
         if (!isLocked)
         {
             pieceToMove5.transform.position = Input.mousePosition;
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                pieceToMove5.transform.Rotate(0.0f, 0.0f, 90.0f, Space.World);
+                Debug.Log("R pressed");
+            }
         }
     }
 
@@ -104,6 +136,11 @@ public class movingScript : MonoBehaviour
         if (!isLocked)
         {
             pieceToMove6.transform.position = Input.mousePosition;
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                pieceToMove6.transform.Rotate(0.0f, 0.0f, 90.0f, Space.World);
+                Debug.Log("R pressed");
+            }
         }
     }
 
@@ -112,6 +149,11 @@ public class movingScript : MonoBehaviour
         if (!isLocked)
         {
             pieceToMove7.transform.position = Input.mousePosition;
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                pieceToMove7.transform.Rotate(0.0f, 0.0f, 90.0f, Space.World);
+                Debug.Log("R pressed");
+            }
         }
     }
 
@@ -120,6 +162,11 @@ public class movingScript : MonoBehaviour
         if (!isLocked)
         {
             pieceToMove8.transform.position = Input.mousePosition;
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                pieceToMove8.transform.Rotate(0.0f, 0.0f, 90.0f, Space.World);
+                Debug.Log("R pressed");
+            }
         }
     }
 
@@ -128,6 +175,11 @@ public class movingScript : MonoBehaviour
         if (!isLocked)
         {
             pieceToMove9.transform.position = Input.mousePosition;
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                pieceToMove9.transform.Rotate(0.0f, 0.0f, 90.0f, Space.World);
+                Debug.Log("R pressed");
+            }
         }
     }
 
@@ -841,6 +893,9 @@ public class movingScript : MonoBehaviour
             SceneManager.LoadScene("New Building");
             buttonscript.setPos2 = true;
             Feedbacktext.fRight = true;
+            Feedbacktext.lastInst = 1;
+            UI.check1 = true;
+
             Createinteractionpopup1.startMinigame = false;
 
         }

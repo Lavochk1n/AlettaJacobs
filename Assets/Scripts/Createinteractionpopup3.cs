@@ -22,16 +22,15 @@ public class Createinteractionpopup3 : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (pm)
-        {
-            if (GameObject.Find("InteractionText 5(Clone)") == null)
+        
+            if (GameObject.Find("InteractionText 5(Clone)") == null && GameObject.Find("InteractionText 9(Clone)") == null)
             {
                 Instantiate(interactionText, textPos.position, textPos.rotation, textPos.transform);
                 textInstance = GameObject.Find("InteractionText 8(Clone)");
             }
                 triggerStay1 = true;
             
-        }
+        
     }
    
 
@@ -72,7 +71,7 @@ public class Createinteractionpopup3 : MonoBehaviour
                     Debug.Log("space was pressed");
                 }
             }
-
+        }
 
             if (fRight)
             {
@@ -96,16 +95,15 @@ public class Createinteractionpopup3 : MonoBehaviour
                 fWrong = false;
                 lastInst = 2;
             }
-        }
+        
     }
 
     void OnTriggerExit(Collider other)
     {
-        if (pm)
-        {
+        
             Destroy(textInstance);
             triggerStay1 = false;
-        }
+        
     }
 
 

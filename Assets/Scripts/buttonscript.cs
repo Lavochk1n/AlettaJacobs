@@ -79,6 +79,8 @@ public class buttonscript : MonoBehaviour
         playerMovement.setPos5 = true;
         Createinteractionpopup3.fRight = true;
         Createinteractionpopup3.lastInst = 1;
+        Createinteractionpopup3.pm = false;
+        UI.check4 = true;
     }
 
     public void ToConvo()

@@ -39,6 +39,7 @@ public class playerMovement : MonoBehaviour
         //    positionToSet = Vector3.zero;
         //}
         //    transform.position = new Vector3(300.5f, 48f, -409.5f);
+        Cursor.visible = false; 
         
     }
 
@@ -136,7 +137,7 @@ public class playerMovement : MonoBehaviour
 
             if (_i == 2)
             {
-                //   transform.Rotate(0f, -90f, 0f, Space.World);
+                   transform.Rotate(0f, -180f, 0f, Space.World);
                 if (transform.position == positionToSet)
                 {
 

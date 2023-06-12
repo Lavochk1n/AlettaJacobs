@@ -43,7 +43,9 @@ public class ClickTheCaptain : MonoBehaviour
                 if (hit.transform == objectToClick.transform)
                 {
                       SceneManager.LoadScene("FirstQuestion");
-                  //  Createinteractionpopup3.pm = false;
+                    UI.check3 = true;
+                    //  Createinteractionpopup3.pm = false;
+                    Createinteractionpopup3.lastInst = 2;
                     Debug.Log("Right object clicked");
 
                 }
